@@ -1,0 +1,35 @@
+---
+import { AD_FORMATS, REVIVE_CONFIG, type AdFormatKey } from '../../config/ads';
+
+interface Props {
+  zoneId: number;
+  format: AdFormatKey;
+  className?: string;
+  label?: string;
+}
+
+const { zoneId, format, className = '', label = 'Partenaire' } = Astro.props;
+const config = AD_FORMATS[format];
+---
+
+<div
+  class={`revive-ad-container mx-auto my-4 flex flex-col items-center justify-center overflow-hidden rounded border border-stone-200/60 bg-stone-50 p-2 text-center text-xs text-stone-600 ${className}`}
+  style={`min-height: ${config.height + 24}px; max-width: ${config.width + 16}px;`}
+>
+  <span class="mb-1 block text-[10px] tracking-wider uppercase text-stone-500">
+    {label}
+  </span>
+  <div
+    class="flex items-center justify-center bg-stone-100 rounded"
+    style={`width: ${config.width}px; height: ${config.height}px; max-width: 100%;`}
+  >
+    <!-- Revive Adserver Asynchronous JS Tag - Generated with Revive Adserver v6.0.8 -->
+    <ins
+      data-revive-zoneid={zoneId}
+      data-revive-id={REVIVE_CONFIG.id}
+      style={`display:inline-block;width:${config.width}px;height:${config.height}px;`}
+    ></ins>
+  </div>
+</div>
+
+<script async src={REVIVE_CONFIG.scriptUrl}></script>

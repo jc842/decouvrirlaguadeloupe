@@ -1,0 +1,28 @@
+{
+  "name": "pbn-template",
+  "version": "1.0.0",
+  "description": "Template universel PBN Astro avec Keystatic CMS, i18n et connecteur MainWP",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "fetch-site": "node scripts/fetch-from-mainwp.mjs",
+    "redirects": "node scripts/generate-redirects.mjs"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.4.2",
+    "@astrojs/tailwind": "^6.0.2",
+    "@keystatic/astro": "^6.0.0",
+    "@keystatic/core": "^0.6.9",
+    "@tailwindcss/typography": "^0.5.20",
+    "astro": "^5.18.2",
+    "axios": "^1.7.9",
+    "fs-extra": "^11.3.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.19"
+  }
+}

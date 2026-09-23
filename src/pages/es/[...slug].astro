@@ -1,0 +1,57 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const allBlog = await getCollection('blog', ({ data }) => data.lang === 'es');
+  const allPages = await getCollection('pages', ({ data }) => data.lang === 'es');
+
+  const blogPaths = allBlog.map(post => ({
+    params: { slug: post.id },
+    props: { entry: post, isBlog: true },
+  }));
+
+  const pagesPaths = allPages.map(page => ({
+    params: { slug: page.id },
+    props: { entry: page, isBlog: false },
+  }));
+
+  return [...blogPaths, ...pagesPaths];
+}
+
+const { entry, isBlog } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<Layout
+  title={entry.data.title}
+  description={entry.data.description}
+  image={entry.data.heroImage}
+  article={isBlog}
+  lang="es"
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <article class="bg-white p-6 sm:p-10 rounded-2xl border shadow-sm">
+      <header class="mb-8">
+        <h1 class="text-2xl sm:text-4xl font-extrabold text-stone-900 tracking-tight leading-tight mb-4">
+          {entry.data.title}
+        </h1>
+        {entry.data.pubDate && (
+          <div class="text-xs text-stone-500">
+            <span>Publicado el {new Date(entry.data.pubDate).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+          </div>
+        )}
+      </header>
+
+      {entry.data.heroImage && (
+        <div class="mb-8 rounded-xl overflow-hidden shadow-sm max-w-lg mx-auto">
+          <img src={entry.data.heroImage} alt={entry.data.title} class="w-full h-auto object-cover" loading="eager" />
+        </div>
+      )}
+
+      <div class="prose prose-stone max-w-none">
+        <Content />
+      </div>
+    </article>
+  </div>
+</Layout>

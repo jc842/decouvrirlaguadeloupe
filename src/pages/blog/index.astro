@@ -1,0 +1,43 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { siteConfig } from '../../config/site.config';
+
+const posts = await getCollection('blog', ({ data }) => !data.draft && (!data.lang || data.lang === 'fr'));
+posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<Layout title="Tous les guides & chroniques | Découvrir la Guadeloupe">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <header class="mb-10 pb-6 border-b border-stone-200">
+      <span class="text-xs font-extrabold uppercase tracking-widest text-emerald-700">Guide & Chroniques</span>
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight mt-1 mb-2">Tous les articles de l'archipel</h1>
+      <p class="text-stone-600 text-sm">Retrouvez l'ensemble de nos 200 dossiers, guides de randonnées, activités nautiques et reportages en Guadeloupe.</p>
+    </header>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {posts.map(post => (
+        <article class="bg-white rounded-2xl border border-stone-200/90 p-5 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group">
+          <div>
+            {post.data.heroImage && (
+              <a href={`/blog/${post.id}/`} class="aspect-[16/10] overflow-hidden rounded-xl mb-4 bg-stone-100 block">
+                <img src={post.data.heroImage} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              </a>
+            )}
+            <span class="text-[10px] font-extrabold uppercase tracking-wider text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded mb-2 inline-block">
+              {post.data.category}
+            </span>
+            <h2 class="text-base font-bold text-stone-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug mb-2">
+              <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+            </h2>
+            <p class="text-xs text-stone-600 line-clamp-3 mb-4 leading-relaxed">{post.data.description}</p>
+          </div>
+          <div class="pt-3 border-t border-stone-100 flex items-center justify-between text-[11px] text-stone-400">
+            <span>{new Date(post.data.pubDate).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+            <span class="font-bold text-emerald-700 group-hover:translate-x-0.5 transition-transform">Lire &rarr;</span>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</Layout>
