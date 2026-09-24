@@ -9,7 +9,10 @@
     "build": "astro build",
     "preview": "astro preview",
     "fetch-site": "node scripts/fetch-from-mainwp.mjs",
-    "redirects": "node scripts/generate-redirects.mjs"
+    "redirects": "node scripts/generate-redirects.mjs",
+    "sitemap": "node scripts/generate-sitemap.mjs",
+    "prebuild": "node scripts/generate-sitemap.mjs",
+    "predev": "node scripts/generate-sitemap.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^4.4.2",
