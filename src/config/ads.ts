@@ -6,37 +6,37 @@ export const REVIVE_CONFIG = {
 export const AD_FORMATS = {
   halfPage: {
     id: 'half-page',
-    name: 'Half Page 625Custom',
+    name: 'Half Page (300x600)',
     width: 300,
     height: 600,
   },
   largeRectangle: {
     id: 'large-rectangle',
-    name: 'Large Rectangle',
+    name: 'Large Rectangle (336x280)',
     width: 336,
     height: 280,
   },
   leaderboard: {
     id: 'leaderboard',
-    name: 'Leaderboard 626IAB Leaderboard',
+    name: 'Leaderboard (728x90)',
     width: 728,
     height: 90,
   },
   mediumRectangle: {
     id: 'medium-rectangle',
-    name: 'Medium Rectangle 627IAB Medium Rectangle',
+    name: 'Medium Rectangle (300x250)',
     width: 300,
     height: 250,
   },
   mobileBanner: {
     id: 'mobile-banner',
-    name: 'Mobile Banner 623Custom',
+    name: 'Mobile Banner (320x100)',
     width: 320,
     height: 100,
   },
   skyscraper: {
     id: 'skyscraper',
-    name: 'Skyscraper 622IAB Wide Skyscraper',
+    name: 'Skyscraper (160x600)',
     width: 160,
     height: 600,
   },
