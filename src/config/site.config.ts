@@ -6,7 +6,7 @@ export interface SiteConfig {
   repo: string;
   i18n: { defaultLocale: string; locales: string[]; prefixDefaultLocale: boolean; };
   theme: { style: string; fontFamily: string; colorScheme: string; };
-  matomo: { url: string; siteId: string; };
+  matomo: { url: string; siteId: string; containerId?: string; };
   revive: { reviveId: string; scriptUrl: string; zones: Record<string, { zoneId: number; format: string }>; };
   legal: { editor: string; address: string; contactEmail: string; hostName: string; hostAddress: string; };
 }
@@ -33,6 +33,7 @@ export const siteConfig: SiteConfig = {
   matomo: {
     url: "https://analytics.les4h.fr/",
     siteId: "57",
+    containerId: "rzEEcHAG",
   },
 
   revive: {
