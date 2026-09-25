@@ -152,5 +152,26 @@ const theme = colorThemes[siteConfig.theme?.colorScheme || 'stone'] || colorThem
 
   <!-- Matomo Tracking -->
   
+  <!-- Masquage propre des emplacements Revive sans bannière active -->
+  <script is:inline>
+    (function() {
+      const reviveId = 'ac119b122a644588953c74c4c1daee06';
+      document.addEventListener('revive-' + reviveId + '-loaded', function(e) {
+        if (e && e.detail && e.detail.data && (!e.detail.data.width || Number(e.detail.data.width) === 0)) {
+          const insEl = document.getElementById(e.detail.id);
+          if (insEl) {
+            const container = insEl.closest('.revive-slot-container') || insEl.parentElement;
+            if (container) {
+              container.style.display = 'none';
+              const parentWrapper = container.parentElement;
+              if (parentWrapper && (parentWrapper.classList.contains('flex-col') || parentWrapper.classList.contains('hidden') || parentWrapper.classList.contains('my-10') || parentWrapper.classList.contains('my-14') || parentWrapper.classList.contains('my-12')) && parentWrapper.children.length <= 2) {
+                parentWrapper.style.display = 'none';
+              }
+            }
+          }
+        }
+      });
+    })();
+  </script>
 </body>
 </html>

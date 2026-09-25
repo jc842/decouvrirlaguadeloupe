@@ -1,3 +1,5 @@
+export * from './ads.config';
+
 export const REVIVE_CONFIG = {
   id: 'ac119b122a644588953c74c4c1daee06',
   scriptUrl: '//ads.les4h.fr/www/delivery/asyncjs.php',

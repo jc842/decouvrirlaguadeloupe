@@ -1,8 +1,5 @@
 ---
-import { siteConfig } from '../../config/site.config';
 import ReviveSlot from './ReviveSlot.astro';
-
-const stickyZone = siteConfig.revive.zones.mobileSticky;
 ---
 
 <div
@@ -18,8 +15,7 @@ const stickyZone = siteConfig.revive.zones.mobileSticky;
     ✕
   </button>
   <ReviveSlot
-    zoneId={stickyZone.zoneId}
-    format={stickyZone.format}
+    slot="mobileSticky"
     className="my-0 border-0 p-0 bg-transparent shadow-none"
   />
 </div>
