@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/les-traditions-qui-nous-unissent-un-voyage-au-coeur-de-nos-emotions-hero.jpg"
 title: "Quelles sont les traditions locales à découvrir en Guadeloupe ?"
 description: "EN BREF                  - **Veillées mortuaires** : Moments de rassemblement familial autour du défunt.          - **Carnaval** : Fête colorée et festive, un d..."
 pubDate: "2024-10-22 11:28:21"

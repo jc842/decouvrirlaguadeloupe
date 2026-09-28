@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Une nouvelle génération prend le relais"
 description: "Dans un monde en perpétuelle évolution, le passage de flambeau des générations révèle une dynamique essentielle pour assurer la continuité et l’innovation dans ..."
 pubDate: "2025-06-24 17:08:12"

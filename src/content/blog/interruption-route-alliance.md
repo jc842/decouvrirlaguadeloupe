@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "aucune interruption ni activité sportive sur la Route de l'Alliance durant les dimanches de Pentecôte et de la Fête des Pères"
 description: "Durant les dimanches de Pentecôte et de la Fête des Pères 2025, les automobilistes et usagers de la Route Nationale 11, plus connue sous le nom de Route de l'Al..."
 pubDate: "2025-06-06 17:14:33"

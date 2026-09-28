@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "La Guadeloupe placée en vigilance jaune en raison de fortes pluies et orages"
 description: "Les cieux guadeloupéens s'assombrissent en ce mois de mai 2025, alors que l'archipel se retrouve placé en vigilance jaune pour fortes pluies et orages. Cette al..."
 pubDate: "2025-06-07 03:07:49"

@@ -36,6 +36,21 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/activites-ludiques-educatives-famille-guadeloupe/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/activites-nautiques-kayak-paddle-mangrove-guadeloupe/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/agenda-culturel-evenements-musicaux-antilles/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/air-antilles-factures-annulees/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -142,6 +157,16 @@
   </url>
   <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/budget-vie-guadeloupe-2025/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/canyonisme-randonnee-aquatique-rivieres-basse-terre/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/carnaval-festivals-guadeloupe-calendrier-evenements/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -296,107 +321,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-activite-famille-decouvrirlaguadeloupe-2/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-activite-famille-decouvrirlaguadeloupe-3/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-activite-famille-decouvrirlaguadeloupe/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-agenda-evenement-decouvrirlaguadeloupe-2/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-agenda-evenement-decouvrirlaguadeloupe-3/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-agenda-evenement-decouvrirlaguadeloupe-4/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-agenda-evenement-decouvrirlaguadeloupe/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-fiche-randonnee-decouvrirlaguadeloupe-2/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-fiche-randonnee-decouvrirlaguadeloupe-3/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-fiche-randonnee-decouvrirlaguadeloupe/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-guide-activite-nautique-decouvrirlaguadeloupe-2/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-guide-activite-nautique-decouvrirlaguadeloupe-3/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-guide-activite-nautique-decouvrirlaguadeloupe-4/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-guide-activite-nautique-decouvrirlaguadeloupe-5/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-guide-activite-nautique-decouvrirlaguadeloupe-6/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-guide-activite-nautique-decouvrirlaguadeloupe-7/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-guide-activite-nautique-decouvrirlaguadeloupe-8/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-guide-activite-nautique-decouvrirlaguadeloupe/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-site-naturel-decouvrirlaguadeloupe-2/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-site-naturel-decouvrirlaguadeloupe-3/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/blog/f0-9f-8f-84-site-naturel-decouvrirlaguadeloupe/</loc>
+    <loc>https://decouvrirlaguadeloupe.com/blog/excursions-mer-sorties-bateau-iles-cayes-guadeloupe/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -412,6 +337,11 @@
   </url>
   <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/festivals-guadeloupe-engagement/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/fetes-traditionnelles-animations-culturelles-guadeloupe/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -491,6 +421,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/guadeloupe-en-famille-guide-activites-enfants/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/guadeloupe-etoiles/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -551,6 +486,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/guide-randonnees-guadeloupe-soufriere-chutes-du-carbet/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/haiti-des-millions-de-sans-papiers-vivent-dans-lombre-depourvus-de-droits-et-didentite/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -581,12 +521,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/joyaux-sauvages-reserves-falaises-guadeloupe/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/juillet-sec-guadeloupe/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/kabana-beach-lois-littoral/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/kitesurf-planche-a-voile-meilleurs-spots-guadeloupe/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -716,6 +666,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/marches-locaux-foires-fetes-patronales-guadeloupe/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/marie-claude-synesius-pharmaciens/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -796,6 +751,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/panoramas-espaces-naturels-proteges-tresors-verts-guadeloupe/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/peche-au-gros-sorties-nautiques-guadeloupe/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/permis-suspendus-controles-guadeloupe/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -826,6 +791,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/plongee-snorkeling-reserve-cousteau-recifs-guadeloupe/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/plus-beaux-sites-naturels-guadeloupe-volcan-cascades/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/problemes-securite-guadeloupe/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -842,6 +817,11 @@
   </url>
   <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/que-faire-en-guadeloupe-20-idees-et-conseils-pour-explorer-lile/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/randonnees-cascades-traces-panoramas-volcaniques-guadeloupe/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -911,12 +891,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/sentiers-balises-foret-tropicale-guadeloupe-a-pied/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/situation-positive-guadeloupe/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/souvenir-deshaies-crash-1962/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/sports-nautiques-sensations-fortes-lagons-guadeloupe/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -991,6 +981,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/vacances-famille-guadeloupe-plages-jardins-zoos/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/vie-nocturne-antillaise-bars-clubs/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1021,6 +1016,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://decouvrirlaguadeloupe.com/blog/voile-croisiere-naviguer-archipel-guadeloupe/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://decouvrirlaguadeloupe.com/blog/xavier-niel-acquisition-france-antilles/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1029,11 +1029,6 @@
     <loc>https://decouvrirlaguadeloupe.com/blog/yasmine-prudente-police-guadeloupe/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://decouvrirlaguadeloupe.com/actualite/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://decouvrirlaguadeloupe.com/bienvenue-chez-decouvrir-la-guadeloupe-le-bloc-specialise-pour-toutes-les-activites-en-guadeloupe/</loc>

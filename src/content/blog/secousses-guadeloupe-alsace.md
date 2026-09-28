@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Événements sismiques surprenants : une secousse en Guadeloupe et une autre en Alsace"
 description: "Les territoires français viennent d’être témoins de deux événements sismiques surprenants, l’un aux Antilles et l’autre en métropole. Le 15 septembre, un séisme..."
 pubDate: "2025-09-16 17:03:20"

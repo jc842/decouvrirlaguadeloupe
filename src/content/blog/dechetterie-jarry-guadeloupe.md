@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "La déchetterie de Jarry en Guadeloupe : un exemple positif sur nos écrans"
 description: "Au cœur de la Guadeloupe, la déchetterie de Jarry s’impose comme un véritable modèle d’écologie et de gestion durable des déchets. Présentée récemment sur nos é..."
 pubDate: "2025-07-16 17:05:55"

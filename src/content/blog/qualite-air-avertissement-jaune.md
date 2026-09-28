@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Qualité de l'air : un avertissement jaune ce dimanche en Guadeloupe et à Saint-Martin"
 description: "Ce dimanche 29 juin, la Guadeloupe et Saint-Martin font face à un épisode préoccupant concernant la qualité de l'air. L'arrivée d’une masse d’air chargée en par..."
 pubDate: "2025-06-30 03:13:52"

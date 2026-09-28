@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/soufriere-randonnee-trail.jpg"
 title: "Quelles randonnées incontournables en Guadeloupe ?"
 description: "**EN BREF**                                - **Parc National de la Guadeloupe** : des randonnées diversifiées pour tous niveaux                  - **Pointe des ..."
 pubDate: "2024-10-22 11:06:47"

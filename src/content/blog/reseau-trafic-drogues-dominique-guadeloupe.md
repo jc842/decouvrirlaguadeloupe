@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Démantèlement d'un important réseau de trafic de drogues entre la Dominique et la Guadeloupe par la section de recherches de Pointe-à-Pitre"
 description: "Un coup de filet majeur a récemment secoué la Caraïbe, mettant en lumière l'efficacité de la Section de recherches de Pointe-à-Pitre dans la lutte déterminée co..."
 pubDate: "2025-06-15 17:07:56"

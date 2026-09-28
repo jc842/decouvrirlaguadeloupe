@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/les-meilleures-astuces-pour-explorer-facilement-les-caraibes-hero.jpg"
 title: "Comment se repérer facilement en Guadeloupe ?"
 description: "EN BREF                                - **Europe** - Située dans l'arc des Petites Antilles                  - **Archipel** - Comprenant sept îles, dont Karuke..."
 pubDate: "2024-10-22 07:45:20"

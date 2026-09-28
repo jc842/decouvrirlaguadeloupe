@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Le fan club PSG de Guadeloupe célèbre une décennie de passion"
 description: "Le 17 mai 2025, le fan club PSG de Guadeloupe a célébré avec enthousiasme dix ans d'une aventure unique, marquée par une passion inébranlable pour le football. ..."
 pubDate: "2025-05-22 17:01:38"

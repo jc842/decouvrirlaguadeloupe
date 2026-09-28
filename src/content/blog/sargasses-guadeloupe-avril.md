@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Prévisions favorables pour la saison des échouements de sargasses en Guadeloupe dès avril"
 description: "Alors que l’arrivée massive des sargasses en Guadeloupe a longtemps été source de préoccupations majeures pour les écosystèmes marins et le tourisme local, les ..."
 pubDate: "2025-06-07 23:26:07"

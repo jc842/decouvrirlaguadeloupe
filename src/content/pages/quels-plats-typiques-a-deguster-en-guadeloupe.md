@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/redecouvrez-la-chaleur-des-saveurs-creoles-hero.jpg"
 title: "Quels plats typiques à déguster en Guadeloupe ?"
 description: "**EN BREF**                                - **Colombo de poulet** - Un plat épicé et savoureux, emblématique des traditions culinaires.                  - **Ma..."
 pubDate: "2024-10-22 11:17:47"

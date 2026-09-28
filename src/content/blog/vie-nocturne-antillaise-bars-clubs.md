@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Explorer la vie nocturne antillaise : top adresses de bars et clubs incontournables en Guadeloupe, Martinique et Saint-Martin"
 description: "Quand le soleil se couche sur les Antilles, l'ambiance s'embrase dans un tourbillon de couleurs, de rythmes et de convivialité. Guadeloupe, Martinique et Saint-..."
 pubDate: "2025-06-11 23:22:36"

@@ -1,0 +1,99 @@
+{
+  "siteName": "Découvrir la Guadeloupe",
+  "domain": "decouvrirlaguadeloupe.com",
+  "niche": "Randonnées, Cascades, Parc National & Écotourisme en Guadeloupe",
+  "theme": "Lexington Rainforest Emerald",
+  "resume_existant": "200 articles sur la forêt tropicale, les cascades, la Soufrière, les plages de Basse-Terre et Grande-Terre.",
+  "pages_a_pousser": [
+    {
+      "url": "/blog/guide-ascension-volcan-la-soufriere-guadeloupe-conseils/",
+      "titre": "L'Ascension de la Soufrière en 2026 : Sentiers, Météo, Fumerolles et Équipements Requis",
+      "objectif_seo": "Positionnement phare 'ascension la soufriere guadeloupe' et 'randonnee volcan guadeloupe'",
+      "priorite": "P1"
+    },
+    {
+      "url": "/blog/les-chutes-du-carbet-guide-complet-1ere-2eme-3eme-chute/",
+      "titre": "Les 3 Chutes du Carbet : Accès, Difficulté, Tarifs et Randonnée au Cœur du Parc National",
+      "objectif_seo": "Volume massif 'chutes du carbet acces' et 'cascade guadeloupe facile'",
+      "priorite": "P1"
+    }
+  ],
+  "clusters": [
+    {
+      "nom": "Volcan de la Soufrière & Crêtes de Basse-Terre",
+      "slug": "volcan-la-soufriere",
+      "page_pilier": "/blog/guide-ascension-volcan-la-soufriere-guadeloupe-conseils/",
+      "description": "Bains Jaunes, trace des Pas du Roy, cratère Sud, météo d'altitude et risque fumerolles.",
+      "articles_a_publier": [
+        {
+          "titre": "Les Bains Jaunes de Saint-Claude : se prélasser dans l'eau chaude sulfureuse au pied du volcan",
+          "mot_cle": "bains jaunes guadeloupe saint claude",
+          "intention": "Détente Nature",
+          "type": "Guide Découverte",
+          "mots_cles_secondaires": [
+            "bassin eau chaude soufriere",
+            "bains jaunes depart randonnee",
+            "temperature bains jaunes"
+          ],
+          "maillage": {
+            "montant": "/blog/guide-ascension-volcan-la-soufriere-guadeloupe-conseils/",
+            "transverse": "trace-des-cretes-parc-national"
+          }
+        },
+        {
+          "titre": "Fumerolles et gaz acides du cratère : pourquoi le masque à gaz est recommandé au sommet",
+          "mot_cle": "sommet soufriere fumerolles masque",
+          "intention": "Sécurité Rando",
+          "type": "Conseils de Sécurité",
+          "mots_cles_secondaires": [
+            "cratere sud soufriere acces",
+            "danger soufre volcan antilles",
+            "guide assermente soufriere"
+          ],
+          "maillage": {
+            "montant": "/blog/guide-ascension-volcan-la-soufriere-guadeloupe-conseils/",
+            "transverse": "bains-jaunes-guadeloupe"
+          }
+        }
+      ]
+    },
+    {
+      "nom": "Rivières, Bassins Secrets & Canyoning",
+      "slug": "rivieres-cascades-canyoning",
+      "page_pilier": "/blog/les-chutes-du-carbet-guide-complet-1ere-2eme-3eme-chute/",
+      "description": "Saut d'Acomat, Bassin Bleu de Gourbeyre, cascade aux Écrevisses, sauts de rivière et canyons.",
+      "articles_a_publier": [
+        {
+          "titre": "Le Saut d'Acomat à Pointe-Noire : le lagon d'émeraude et la vigilance face aux crues éclair",
+          "mot_cle": "saut acomat guadeloupe",
+          "intention": "Guide Pratique / Sécurité",
+          "type": "Fiche Spot Baignade",
+          "mots_cles_secondaires": [
+            "bassin turquoise pointe noire",
+            "danger saut acomat pluie",
+            "acces saut acomat en famille"
+          ],
+          "maillage": {
+            "montant": "/blog/les-chutes-du-carbet-guide-complet-1ere-2eme-3eme-chute/",
+            "transverse": "canyoning-vauchelet-ravine-chaude"
+          }
+        },
+        {
+          "titre": "Canyoning en Guadeloupe : les plus beaux parcours de descente en rappel dans les gorges tropicales",
+          "mot_cle": "canyoning guadeloupe meilleur parcours",
+          "intention": "Activité Sportive / Réservation",
+          "type": "Guide Activité Aventure",
+          "mots_cles_secondaires": [
+            "canyon vauchelet saint claude",
+            "canyoning debutant guadeloupe",
+            "reservation moniteur canyoning"
+          ],
+          "maillage": {
+            "montant": "/blog/les-chutes-du-carbet-guide-complet-1ere-2eme-3eme-chute/",
+            "transverse": "le-saut-d-acomat-a-pointe-noire"
+          }
+        }
+      ]
+    }
+  ]
+}

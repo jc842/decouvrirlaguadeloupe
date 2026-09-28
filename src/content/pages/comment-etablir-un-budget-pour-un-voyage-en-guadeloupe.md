@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/les-meilleures-astuces-pour-denicher-un-hebergement-economique-dans-les-caraibes-hero.jpg"
 title: "Comment établir un budget pour un voyage en Guadeloupe ?"
 description: "**EN BREF**                                - Estimer le **budget total** pour une semaine : 1000 à 1500 € par personne.                  - Hébergement : prévoye..."
 pubDate: "2024-10-22 11:14:41"

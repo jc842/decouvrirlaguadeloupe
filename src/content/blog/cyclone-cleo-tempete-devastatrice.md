@@ -1,5 +1,5 @@
 ---
-title: ": le cyclone Cléo, une tempête de petite taille aux conséquences dévastatrices"
+title: "Le cyclone Cléo : une tempête de petite taille aux conséquences dévastatrices"
 description: "En août 1964, la Guadeloupe fut brutalement frappée par le cyclone Cléo, une tempête tropicale de petite taille mais à l’impact dévastateur. Ce phénomène météor..."
 pubDate: "2025-07-25 03:03:38"
 category: "Actualité"

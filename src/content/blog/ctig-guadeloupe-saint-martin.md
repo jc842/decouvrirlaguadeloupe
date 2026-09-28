@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Le CTIG, fier ambassadeur de la Guadeloupe et de Saint-Martin, sera présent à la foire Top Résa"
 description: "Présent sur la scène internationale du tourisme, le Comité du Tourisme des Îles de Guadeloupe (CTIG) incarne le dynamisme et l’attractivité des Antilles françai..."
 pubDate: "2025-09-17 17:08:42"

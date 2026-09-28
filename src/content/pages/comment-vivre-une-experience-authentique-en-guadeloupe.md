@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/accueillir-le-coeur-ouvert-la-magie-dun-vrai-accueil-hero.jpg"
 title: "Comment vivre une expérience authentique en Guadeloupe ?"
 description: "EN BREF                                - Découvrir la **culture guadeloupéenne** à travers les **fêtes** et **festivals traditionnels**.                  - Visi..."
 pubDate: "2024-10-22 11:26:40"

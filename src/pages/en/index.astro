@@ -7,28 +7,38 @@ const enPosts = await getCollection('blog', ({ data }) => data.lang === 'en' && 
 enPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
-<Layout title={`${siteConfig.name} - English`} lang="en">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <header class="mb-10 pb-6 border-b">
-      <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight mb-2">English Articles</h1>
-      <p class="text-stone-600 text-sm">Featured guides and insights.</p>
+<Layout title={`${siteConfig.name} - English Guides`} lang="en">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+    <header class="mb-12 pb-8 border-b border-stone-200">
+      <span class="text-xs font-bold uppercase tracking-widest text-forest-800">English Edition</span>
+      <h1 class="font-serif italic text-4xl sm:text-6xl text-stone-900 tracking-tight mt-2 mb-3">Guadeloupe Travel & Hiking Guides</h1>
+      <p class="text-stone-600 text-base max-w-2xl leading-relaxed">
+        Discover the French Caribbean archipelago: lush rainforests, volcanic trails of La Soufrière, waterfalls, and coral reefs.
+      </p>
     </header>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {enPosts.map(post => (
-        <article class="bg-white rounded-xl border p-5 shadow-sm hover:shadow-md transition-shadow flex flex-col">
-          {post.data.heroImage && (
-            <a href={`/en/${post.id}`} class="aspect-[4/5] overflow-hidden rounded-lg mb-4 bg-stone-100">
-              <img src={post.data.heroImage} alt={post.data.title} class="w-full h-full object-cover" loading="lazy" />
-            </a>
-          )}
-          <span class="text-xs font-semibold uppercase text-stone-500 mb-2">{post.data.category}</span>
-          <h3 class="text-base font-bold text-stone-900 hover:text-blue-600 transition-colors line-clamp-2 mb-2">
-            <a href={`/en/${post.id}`}>{post.data.title}</a>
-          </h3>
-          <p class="text-xs text-stone-600 line-clamp-3 mb-4 flex-grow">{post.data.description}</p>
-          <div class="text-[11px] text-stone-400 pt-3 border-t">
-            {new Date(post.data.pubDate).toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' })}
+        <article class="bg-white rounded-2xl border border-stone-200/90 overflow-hidden shadow-xs hover:shadow-md transition-shadow flex flex-col justify-between group">
+          <div>
+            {post.data.heroImage && (
+              <a href={`/en/${post.id}/`} class="aspect-[16/10] overflow-hidden bg-stone-100 block">
+                <img src={post.data.heroImage} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              </a>
+            )}
+            <div class="p-6">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-forest-800 bg-forest-50 px-2 py-0.5 rounded mb-2 inline-block">
+                {post.data.category}
+              </span>
+              <h2 class="font-serif italic text-xl sm:text-2xl text-stone-900 group-hover:text-forest-800 transition-colors line-clamp-2 leading-snug mb-2">
+                <a href={`/en/${post.id}/`}>{post.data.title}</a>
+              </h2>
+              <p class="text-xs text-stone-600 line-clamp-3 mb-4 leading-relaxed">{post.data.description}</p>
+            </div>
+          </div>
+          <div class="px-6 pb-5 pt-3 border-t border-stone-100 flex items-center justify-between text-[11px] text-stone-400">
+            <span>{new Date(post.data.pubDate).toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+            <span class="font-bold text-forest-800 group-hover:translate-x-0.5 transition-transform">Read guide &rarr;</span>
           </div>
         </article>
       ))}

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/explorer-la-biodiversite-fascinante-des-caraibes-faune-et-flore-au-rendez-vous-hero.jpg"
 title: "Comment explorer la faune et la flore en Guadeloupe ?"
 description: "EN BREF                                - Découverte des **récifs coralliens** et de leur **biodiversité marine** exceptionnelle.                  - Observation ..."
 pubDate: "2024-10-22 11:07:46"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "La finale PSG - Inter Milan fait vibrer jusqu'en Guadeloupe"
 description: "Le choc des titans entre le Paris Saint-Germain et l'Inter Milan en finale de la Ligue des champions a suscitée des émotions intenses au sein des supporters du ..."
 pubDate: "2025-05-30 17:05:53"

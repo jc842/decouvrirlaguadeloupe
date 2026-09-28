@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/une-croisiere-pour-retrouver-le-bonheur-perdu-hero.jpg"
 title: "Comment participer à des excursions locales en Guadeloupe ?"
 description: "**EN BREF**                                - **Réservez** vos excursions en ligne pour un meilleur choix.                  - Complétez un **formulaire simple** ..."
 pubDate: "2024-10-22 11:30:41"

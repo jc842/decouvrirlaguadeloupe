@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/la-magie-des-plantes-tropicales-un-voyage-au-coeur-de-la-nature-hero.jpg"
 title: "Quelles activités terrestres sont idéales en Guadeloupe ?"
 description: "**EN BREF**                                - **Randonnée** à La Soufrière pour une vue imprenable                  - Exploration des **plages** secrètes        ..."
 pubDate: "2024-10-22 07:40:04"

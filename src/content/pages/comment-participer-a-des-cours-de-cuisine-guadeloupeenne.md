@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/plongee-dans-les-saveurs-recettes-authentiques-de-la-cuisine-caraibeenne-hero.jpg"
 title: "Comment participer à des cours de cuisine guadeloupéenne ?"
 description: "EN BREF                  - **Découverte des saveurs** antillaises à travers des cours de cuisine.          - Ateliers variés proposés par **Sab et Sens**, **Les..."
 pubDate: "2024-10-22 11:20:50"

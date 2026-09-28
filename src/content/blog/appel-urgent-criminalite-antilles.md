@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Antilles : un appel urgent des autorités à lutter contre la criminalité"
 description: "Les Antilles françaises vivent une crise sécuritaire sans précédent, marquée par une montée fulgurante de la **criminalité** qui inquiète profondément la **comm..."
 pubDate: "2025-06-18 17:09:24"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Quatre députés tirent la sonnette d'alarme sur la situation critique en Guadeloupe"
 description: "La Guadeloupe traverse aujourd’hui une crise sociale sans précédent, où la montée de la violence urbaine et les tensions socio-économiques pèsent lourdement sur..."
 pubDate: "2025-07-03 03:07:34"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Un maçon partage son expérience : le sens de jouer en Guadeloupe"
 description: "Dans l’effervescence culturelle et sportive de la Guadeloupe, le rôle du jeu, qu’il soit sportif ou traditionnel, transcende les simples moments de loisir pour ..."
 pubDate: "2025-06-15 03:04:06"

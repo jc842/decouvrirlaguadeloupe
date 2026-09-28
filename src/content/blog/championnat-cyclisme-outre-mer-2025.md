@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Tout ce qu'il faut savoir sur le championnat de France de cyclisme des Outre-Mer 2025 : parcours, horaires, conditions de circulation et participants"
 description: "Le Championnat de France de cyclisme des Outre-Mer 2025 s’annonce comme un événement majeur pour les passionnés de la petite reine et de sport en général. Organ..."
 pubDate: "2025-06-14 03:08:50"

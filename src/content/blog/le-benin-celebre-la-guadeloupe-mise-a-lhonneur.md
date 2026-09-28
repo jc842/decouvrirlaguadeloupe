@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Le Bénin célébré, la Guadeloupe mise à l'honneur"
 description: "Au carrefour de l'Afrique et des Caraïbes, le lien entre le **Bénin** et la **Guadeloupe** s'affirme à travers une multitude d'événements culturels forts et mém..."
 pubDate: "2025-05-30 03:11:00"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/les-tresors-caches-des-caraibes-un-voyage-au-coeur-de-lhistoire-hero.jpg"
 title: "Quels sites historiques et culturels à ne pas manquer en Guadeloupe ?"
 description: "**EN BREF**                                - **Cathédrale Notre Dame** de Guadeloupe                  - **Fort Delgrès** : symbole de la résistance             ..."
 pubDate: "2024-10-22 11:25:44"

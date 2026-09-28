@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "permis de conduire suspendus lors des contrôles routiers du week-end en Guadeloupe"
 description: "Le dernier week-end en Guadeloupe a une fois de plus mis en lumière les défis que pose la sécurité routière sur l'archipel. Entre une mobilisation accrue des fo..."
 pubDate: "2025-06-17 17:02:36"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/astuces-incontournables-pour-un-voyage-reussi-aux-caraibes-hero.jpg"
 title: "Comment planifier votre séjour en Guadeloupe ?"
 description: "**EN BREF**                                - **Documents nécessaires**: Une carte d'identité valide pour voyager.                  - **Meilleure période**: Déce..."
 pubDate: "2024-10-22 11:10:41"

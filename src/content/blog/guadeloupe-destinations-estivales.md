@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "La Guadeloupe se classe troisième parmi les destinations estivales les plus prisées selon un récent sondage"
 description: "En cette période où les vacances estivales se dessinent à l’horizon, la Guadeloupe se distingue comme un joyau convoité au sein du tourisme français. Selon une ..."
 pubDate: "2025-06-21 17:07:20"
@@ -233,7 +234,7 @@ Attirer jeunes et familles
 
 Dans ce cadre, la vigilance sur la qualité des services et un positionnement tourné vers le tourisme vert, associant le luxe à la nature, permettront de préserver la singularité guadeloupéenne tout en séduisant une clientèle plus large et diversifiée.
 
-https://www.tiktok.com/@/video/7484365738556345605?u_code=0&#038;sharer_language=en
+https://www.tiktok.com/@/video/7484365738556345605?u_code=0&sharer_language=en
 
 ## FAQ – Les questions clés sur le classement estival de la Guadeloupe
 

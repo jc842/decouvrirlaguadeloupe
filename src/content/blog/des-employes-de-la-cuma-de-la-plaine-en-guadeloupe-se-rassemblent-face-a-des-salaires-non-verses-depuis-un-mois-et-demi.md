@@ -69,7 +69,7 @@ Les syndicats ont également organisé des réunions avec d'autres coopératives
 - Échanges d'expériences entre coopératives confrontées à des situations similaires
 - Sensibilisation de l'opinion publique sur les conditions de travail
 
-https://www.tiktok.com/@/video/7197529269453573381?u_code=dch1mb3k94385l&#038;share_item_id=7197529269453573381&#038;share_app_id=1233
+https://www.tiktok.com/@/video/7197529269453573381?u_code=dch1mb3k94385l&share_item_id=7197529269453573381&share_app_id=1233
 
 ## Vers une résolution potentielle : enjeux et perspectives
 

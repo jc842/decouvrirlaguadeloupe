@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Les ondes du Terre de Blues résonnent déjà en Guadeloupe"
 description: "Chaque année, la Guadeloupe vibre intensément sous les harmonies du Terre de Blues, ce festival emblématique qui depuis plus de deux décennies illumine Marie-Ga..."
 pubDate: "2025-06-09 03:06:00"

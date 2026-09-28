@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Un week-end de contrôles intensifs en Guadeloupe met en lumière 157 infractions de sécurité routière"
 description: "Un week-end chargé en Guadeloupe a été marqué par une série de contrôles routiers intensifs, révélant 157 infractions et soulignant l'urgence d'une vigilance ac..."
 pubDate: "2025-07-02 03:09:30"

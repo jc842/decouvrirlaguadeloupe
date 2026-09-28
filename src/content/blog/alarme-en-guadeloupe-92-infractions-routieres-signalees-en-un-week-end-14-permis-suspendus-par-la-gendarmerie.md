@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Alarme en Guadeloupe : 92 infractions routières signalées en un week-end, 14 permis suspendus par la gendarmerie"
 description: "Le week-end dernier a été marqué par une série de contrôles routiers intensifiés en Guadeloupe, révélant un bilan alarmant : 92 infractions ont été relevées, et..."
 pubDate: "2025-05-20 17:01:32"

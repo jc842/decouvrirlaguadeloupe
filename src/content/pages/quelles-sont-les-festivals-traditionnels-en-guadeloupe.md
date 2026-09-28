@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/les-festivals-celebrations-de-la-joie-et-des-emotions-partagees-hero.jpg"
 title: "Quelles sont les festivals traditionnels en Guadeloupe ?"
 description: "**EN BREF**                                - **Carnaval** : de Janvier à Mars, fête emblématique et la plus attendue.                  - **Festival de Terre de ..."
 pubDate: "2024-10-22 11:29:41"

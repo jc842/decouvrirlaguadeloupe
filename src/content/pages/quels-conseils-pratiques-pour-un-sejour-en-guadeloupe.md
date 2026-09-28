@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/voyager-pour-guerir-le-tourisme-comme-echappatoire-emotionnelle-hero.jpg"
 title: "Quels conseils pratiques pour un séjour en Guadeloupe ?"
 description: "**EN BREF**                  - **Carte d'identité** valide pour voyager          - Préparez une **valise** adaptée au climat chaud et humide          - Effectue..."
 pubDate: "2024-10-22 07:40:53"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lartisanat-une-passion-qui-reveille-nos-emotions-hero.jpg"
 title: "Comment rencontrer des artisans guadeloupéens ?"
 description: "**EN BREF**                                - **Marchés locaux** : Échangez directement avec les **producteurs** guadeloupéens.                  - **Associations..."
 pubDate: "2024-10-22 11:28:57"

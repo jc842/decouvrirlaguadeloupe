@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/astuces-pratiques-pour-preparer-votre-escapade-inoubliable-aux-caraibes-hero.jpg"
 title: "Quels sont les moyens de transport en Guadeloupe ?"
 description: "**EN BREF**                                - **Bus** : Option économique pour découvrir l'île.                  - **Taxis** : Disponibles à l'aéroport et autour..."
 pubDate: "2024-10-22 11:13:40"

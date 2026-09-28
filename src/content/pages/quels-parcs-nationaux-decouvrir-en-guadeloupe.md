@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/le-parc-national-un-refuge-pour-nos-emotions-hero.jpg"
 title: "Quels parcs nationaux découvrir en Guadeloupe ?"
 description: "**EN BREF**                                - **Parc National de la Guadeloupe**: Premier parc national des Outre-mers, incontournable pour sa **biodiversité**. ..."
 pubDate: "2024-10-22 11:24:04"

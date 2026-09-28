@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "La Guadeloupe a remporté un succès éclatant"
 description: "La Guadeloupe s'impose en 2025 comme un véritable joyau des Antilles françaises, mulitipliant les succès sur de nombreux fronts et affirmant son rayonnement cul..."
 pubDate: "2025-06-19 17:08:31"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "La Défenseure des droits tire la sonnette d'alarme sur la protection de l'enfance en Guadeloupe"
 description: "La situation de la protection de l'enfance en Guadeloupe se révèle particulièrement alarmante en ce début d’année 2025, suscitant l’inquiétude profonde de la Dé..."
 pubDate: "2025-06-20 17:07:30"

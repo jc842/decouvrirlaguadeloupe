@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "En Guadeloupe, une marche silencieuse pour promouvoir la paix et lutter contre les violences"
 description: "Alors que la Guadeloupe fait face à une recrudescence alarmante des violences et des homicides, une réponse citoyenne forte émerge pour rétablir le calme et la ..."
 pubDate: "2025-06-12 17:12:43"

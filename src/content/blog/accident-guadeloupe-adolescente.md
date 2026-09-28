@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Accident en Guadeloupe : une adolescente héliportée en urgence après une chute d'une bouée tractée"
 description: "Un grave accident a bouleversé la quiétude estivale à Port-Louis, en Guadeloupe : une adolescente de 17 ans a été violemment blessée lors d’une chute accidentel..."
 pubDate: "2025-07-10 17:07:15"

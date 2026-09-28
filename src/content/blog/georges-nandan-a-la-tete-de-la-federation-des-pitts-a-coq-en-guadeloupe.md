@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Georges Nandan : à la tête de la fédération des pitts à coq en Guadeloupe"
 description: "En Guadeloupe, le maintien et la valorisation de la tradition du combat de coqs, plus spécifiquement des pitts à coq, trouve un leader emblématique en la person..."
 pubDate: "2025-09-18 17:04:22"

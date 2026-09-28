@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/redecouvrir-la-nature-lecotourisme-comme-un-voyage-emotionnel-hero.jpg"
 title: "Comment préserver l'environnement lors de votre visite en Guadeloupe ?"
 description: "**EN BREF**                                - **Rapporter les déchets** si les infrastructures locales sont insuffisantes.                  - Choisir des **produ..."
 pubDate: "2024-10-22 08:07:19"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "En guadeloupe, une étude met en lumière le lien entre la consommation de certains fruits et de leurs feuilles et le risque de développer la maladie de parkinson"
 description: "Une récente avancée scientifique en Guadeloupe attire l’attention sur le lien préoccupant entre la consommation récurrente de certains fruits tropicaux et le dé..."
 pubDate: "2025-06-16 17:07:24"

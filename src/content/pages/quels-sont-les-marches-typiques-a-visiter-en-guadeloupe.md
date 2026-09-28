@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lartisanat-une-passion-qui-reveille-nos-emotions-hero.jpg"
 title: "Quels sont les marchés typiques à visiter en Guadeloupe ?"
 description: "**EN BREF**                                - **Marché de Baie-Mahault** : Ouvert chaque mercredi, incontournable pour ses produits locaux.                  - **..."
 pubDate: "2024-10-22 11:24:44"

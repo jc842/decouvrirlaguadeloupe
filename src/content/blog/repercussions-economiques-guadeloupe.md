@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Les répercussions économiques craintes en Guadeloupe face aux tensions au Moyen-Orient"
 description: "Les tensions accrues entre l’Iran, Israël et les États-Unis déclenchent une onde de choc loin de leurs frontières, jusqu’à atteindre la Guadeloupe. À Baie-Mahau..."
 pubDate: "2025-06-26 03:16:49"

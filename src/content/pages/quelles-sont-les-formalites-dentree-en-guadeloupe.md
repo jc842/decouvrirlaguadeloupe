@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/conseils-essentiels-pour-un-voyage-securise-et-agreable-aux-caraibes-hero.jpg"
 title: "Quelles sont les formalités d'entrée en Guadeloupe ?"
 description: "**EN BREF**                                - **Formalités d'entrée** : Présentation d'une carte d'identité nationale ou d'un passeport valide.                  ..."
 pubDate: "2024-10-22 07:42:05"

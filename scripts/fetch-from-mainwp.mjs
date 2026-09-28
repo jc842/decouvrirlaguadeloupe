@@ -248,19 +248,30 @@ async function main() {
         });
 
         const postData = fullPostRes.data?.data || {};
-        const title = postData.post_title || p.title || 'Sans titre';
-        const rawContent = postData.post_content || '';
-        const slug = (postData.post_name || p.title || `post-${p.id}`)
+        let rawTitle = postData.post_title || p.title || 'Sans titre';
+        const title = rawTitle
+          .replace(/[\p{Extended_Pictographic}\u{2700}-\u{27BF}\u{FE00}-\u{FE0F}]/gu, '')
+          .replace(/^EN IMAGES\s*\]\s*/i, '')
+          .replace(/^[\s\[\]\-—:]+|[\s\[\]\-—:]+$/g, '')
+          .replace(/\[\s*\]/g, '')
+          .replace(/\s{2,}/g, ' ')
+          .trim();
+
+        let rawSlug = (postData.post_name || p.title || `post-${p.id}`)
           .toLowerCase()
           .replace(/[^a-z0-9]+/g, '-')
           .replace(/(^-|-$)/g, '');
+        // Nettoyage des prefixes hexadecimaux d'emojis (ex: f0-9f-aa-9f-, e2-9c-88-ef-b8-8f-, etc.)
+        const slug = rawSlug
+          .replace(/^((?:f0-9f|e2-[0-9a-f]{2}|d8-3c|d8-3d)(?:-[0-9a-f]{2}){1,3}-)+/i, '')
+          .replace(/(^-|-$)/g, '');|-$)/g, '');
 
         const mdContent = cleanHtmlToMarkdown(rawContent);
         const desc = mdContent.slice(0, 160).replace(/\n/g, ' ') + '...';
 
         let lang = 'fr';
-        if (slug.startsWith('en-') || slug.includes('caribbean')) lang = 'en';
-        if (slug.startsWith('es-') || slug.includes('caribe')) lang = 'es';
+        if (slug.startsWith('en-') || slug.includes('-en-') || slug.endsWith('-en')) lang = 'en';
+        if (slug.startsWith('es-') || slug.includes('-es-') || slug.endsWith('-es')) lang = 'es';
 
         const imageUrl = postData.post_featured_image || null;
         const heroImage = await processImage(imageUrl, slug);

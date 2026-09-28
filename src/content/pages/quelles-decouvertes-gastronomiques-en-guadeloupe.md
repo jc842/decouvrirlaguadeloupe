@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/exploration-des-saveurs-exotiques-de-la-cuisine-caribeenne-hero.jpg"
 title: "Quelles découvertes gastronomiques en Guadeloupe ?"
 description: "**EN BREF**                                - **Accras de morue** : Délices croustillants à savourer.                  - **Boudin créole** : Spécialité incontour..."
 pubDate: "2024-10-22 11:16:44"

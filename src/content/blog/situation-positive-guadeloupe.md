@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Un aperçu positif de la situation en Guadeloupe"
 description: "La Guadeloupe, souvent perçue à travers le prisme de ses défis sociaux et économiques, révèle pourtant une dynamique positive qui ne cesse de se renforcer en 20..."
 pubDate: "2025-07-17 17:08:47"

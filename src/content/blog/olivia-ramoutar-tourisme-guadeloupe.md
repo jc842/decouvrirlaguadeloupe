@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "Olivia Ramoutar-Badal : à la tête de la Fédération du Tourisme de Proximité en Guadeloupe"
 description: "La Guadeloupe, joyau des Caraïbes, voit aujourd’hui une figure emblématique prendre une place centrale dans la dynamique touristique locale : Olivia Ramoutar-Ba..."
 pubDate: "2025-09-16 03:05:55"

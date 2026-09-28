@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Anticiper son quotidien en Guadeloupe en 2025 : quel budget pour un mode de vie agréable ?"
 description: "La Guadeloupe séduit par son cadre idyllique entre plages de sable blanc, forêts tropicales luxuriantes et une culture riche et chaleureuse. Toutefois, vivre da..."
 pubDate: "2025-06-21 03:07:38"

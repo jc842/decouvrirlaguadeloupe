@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Le 28 juin 1635, la France jette l'ancre en Guadeloupe, marquant le début de l'émergence du créole"
 description: "Le 28 juin 1635 marque une date capitale dans l’histoire des Antilles françaises. Ce jour-là, la France brandit son pavillon sur les rivages de la Guadeloupe, u..."
 pubDate: "2025-06-28 17:05:30"

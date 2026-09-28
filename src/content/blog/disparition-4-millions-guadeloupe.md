@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Disparition suspecte de plus de 4 millions d'euros de la Caisse autonome des règlements pécuniaires du barreau de Guadeloupe"
 description: "La Caisse autonome des règlements pécuniaires des avocats (Carpa) de Guadeloupe fait face à une crise inédite, secouant profondément le barreau local. Plus de 4..."
 pubDate: "2025-06-08 03:05:28"

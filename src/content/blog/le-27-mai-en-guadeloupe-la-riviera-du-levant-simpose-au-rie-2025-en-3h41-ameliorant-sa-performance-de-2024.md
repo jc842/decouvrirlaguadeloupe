@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Le 27 mai en Guadeloupe : La Riviera du Levant s'impose au RIE 2025 en 3h41, améliorant sa performance de 2024"
 description: "Le 27 mai 2025 marquera un tournant significatif dans l'univers sportif guadeloupéen. Ce jour-là, la Riviera du Levant a su démontrer sa supériorité lors du Rel..."
 pubDate: "2025-05-27 17:06:20"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "Explorez les plantes amérindiennes de Guadeloupe lors des rendez-vous aux jardins"
 description: "Au cœur de la Guadeloupe, un trésor végétal d’une richesse insoupçonnée s’offre aux passionnés de nature et d’histoire lors des Rendez-vous aux jardins. Ces jou..."
 pubDate: "2025-06-10 03:09:38"

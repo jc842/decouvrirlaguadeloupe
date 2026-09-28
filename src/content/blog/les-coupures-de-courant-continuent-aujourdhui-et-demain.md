@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Les coupures de courant continuent aujourd'hui et demain"
 description: "**EN BREF**  - **Délestages** programmés jusqu'à demain matin  - Incident technique à la centrale de **Galisbay**  - Problème d'un moteur de **production** affe..."
 pubDate: "2025-05-27 19:01:53"

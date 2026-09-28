@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "La Guadeloupe et la Martinique figurent parmi les 10 premières destinations mondiales pour l'achat de voitures neuves"
 description: "Le marché automobile des Antilles françaises surprend par sa vigueur et son dynamisme, plaçant la Guadeloupe et la Martinique au rang des dix premiers territoir..."
 pubDate: "2025-06-10 17:04:52"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/plongee-libre-une-danse-avec-les-profondeurs-de-lame-hero.jpg"
 title: "Quel snorkeling ou plongée sous-marine en Guadeloupe ?"
 description: "**EN BREF**                                - **Top 3 des spots** de **snorkeling** en Guadeloupe :                  - **Les îlets de Petite Terre** - paradis po..."
 pubDate: "2024-10-22 11:32:54"

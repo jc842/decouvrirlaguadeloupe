@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "Plongée au cœur de la Guadeloupe : les îlets Pigeon menacés"
 description: "Au large de la côte ouest de la Guadeloupe, les Îlets Pigeon, joyaux incontestés de la réserve Cousteau, attirent chaque année des milliers d’amateurs de plongé..."
 pubDate: "2025-06-12 03:09:51"

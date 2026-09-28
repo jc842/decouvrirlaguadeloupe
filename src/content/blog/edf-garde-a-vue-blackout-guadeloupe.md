@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Des agents d'EDF placés en garde à vue suite au black-out majeur d'octobre 2024 en Guadeloupe"
 description: "En octobre 2024, la Guadeloupe a été le théâtre d'un black-out électrique sans précédent, plongeant l'ensemble de l’archipel dans une obscurité totale durant pl..."
 pubDate: "2025-06-24 03:09:08"

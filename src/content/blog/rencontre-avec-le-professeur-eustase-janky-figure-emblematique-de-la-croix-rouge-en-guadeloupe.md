@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "Rencontre avec le professeur Eustase Janky, figure emblématique de la Croix-Rouge en Guadeloupe"
 description: "Le professeur Eustase Janky, nouvellement nommé à la tête de la Croix-Rouge en Guadeloupe, est une figure incontournable de la santé et de l'humanitaire dans la..."
 pubDate: "2025-05-21 03:09:26"

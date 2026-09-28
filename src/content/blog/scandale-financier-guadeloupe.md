@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Scandale financier en Guadeloupe : 1,2 million d'euros détournés au sein d'une association de protection de l'enfance, la justice entre en action"
 description: "La Guadeloupe est confrontée à un scandale financier majeur impliquant l'Association pour l'Aide à l'Enfance et à l'Adolescence (AAEA), qui a joué un rôle essen..."
 pubDate: "2025-09-18 03:10:58"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Le projet CARIAN : une innovation révolutionnaire pour la mesure de l'atmosphère, originaire de Guadeloupe"
 description: "Les défis environnementaux actuels exigent des réponses innovantes et adaptatives, notamment dans les régions tropicales vulnérables, comme les Caraïbes. Le pro..."
 pubDate: "2025-05-31 03:02:22"

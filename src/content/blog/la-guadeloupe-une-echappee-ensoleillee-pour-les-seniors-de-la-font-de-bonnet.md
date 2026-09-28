@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "La Guadeloupe, une échappée ensoleillée pour les seniors de la Font de Bonnet"
 description: "La Guadeloupe, un véritable joyau des Caraïbes, a récemment offert aux séniors de la Font de Bonnet une expérience inoubliable remplie de découvertes et de part..."
 pubDate: "2025-06-01 03:06:35"

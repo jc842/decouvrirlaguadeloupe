@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "Un lamantin aperçu dans la baie du Moule, un spectacle exceptionnel ce jeudi"
 description: "Ce jeudi 3 juillet 2025 restera gravé dans les mémoires des habitants du Moule et des passionnés de la nature en Guadeloupe. En effet, un événement rare et préc..."
 pubDate: "2025-07-05 03:04:29"

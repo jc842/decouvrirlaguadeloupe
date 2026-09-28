@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Indignation en Guadeloupe face à la suppression du lundi de Pâques et du 8 mai"
 description: "En 2025, la Guadeloupe se trouve au cœur d’un vif débat national qui secoue autant les esprits que les traditions. La récente annonce gouvernementale visant à s..."
 pubDate: "2025-07-17 03:04:11"

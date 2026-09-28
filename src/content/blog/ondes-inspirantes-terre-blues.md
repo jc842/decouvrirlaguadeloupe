@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "Les ondes inspirantes du Terre de Blues enchantent déjà la Guadeloupe"
 description: "Depuis le vendredi 6 juin, Marie-Galante, joyau insulaire de la Guadeloupe, s’anime au rythme exaltant du festival Terre de Blues. Attendu avec impatience chaqu..."
 pubDate: "2025-06-07 17:08:27"

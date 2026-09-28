@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Le coût exorbitant des loyers en Guadeloupe : un choix forcé pour se loger"
 description: "En Guadeloupe, le marché locatif se révèle être un véritable défi pour une grande partie de la population. Face à des loyers qui s’envolent bien au-delà du reve..."
 pubDate: "2025-06-25 17:02:27"

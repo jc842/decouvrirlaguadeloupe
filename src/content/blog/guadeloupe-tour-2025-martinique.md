@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "La Guadeloupe s'apprête à accueillir le tour 2025 : la Martinique dévoile une équipe ambitieuse dirigée par Stéfan Bennett"
 description: "Le Tour Cycliste International de la Guadeloupe 2025 s'annonce comme un événement phare de l'été caribéen, mobilisant sportifs, amateurs de cyclisme et passionn..."
 pubDate: "2025-07-23 03:10:41"

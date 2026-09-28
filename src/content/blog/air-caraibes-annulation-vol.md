@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "passagers d'Air Caraïbes confrontés à l'annulation de leur vol depuis deux jours"
 description: "Depuis deux jours, plusieurs centaines de passagers d’Air Caraïbes vivent un cauchemar aérien. Bloqués à l’aéroport Guadeloupe Maryse Condé, ces voyageurs, init..."
 pubDate: "2025-06-23 03:12:27"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/la-magie-des-cocktails-un-voyage-emotionnel-en-chaque-gorgee-hero.jpg"
 title: "Quelles sont les boissons locales à essayer en Guadeloupe ?"
 description: "**EN BREF**                                - **Ti-Punch**: Mélange iconique de **rhum blanc**, citron vert et sucre de canne.                  - **Rhum**: Fonde..."
 pubDate: "2024-10-22 11:18:50"

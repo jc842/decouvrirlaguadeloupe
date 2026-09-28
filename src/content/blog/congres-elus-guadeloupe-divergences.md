@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "XIXe congrès des élus de Guadeloupe : un matin révélateur des divergences entre département et région"
 description: "Le XIXe congrès des élus de Guadeloupe s’est tenu le 17 juin au Palais du Conseil départemental à Basse-Terre, marquant un moment politique essentiel pour l’arc..."
 pubDate: "2025-06-18 03:05:59"

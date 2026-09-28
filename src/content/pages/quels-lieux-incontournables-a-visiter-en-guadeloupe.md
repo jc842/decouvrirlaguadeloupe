@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/les-iles-les-plus-captivantes-a-explorer-dans-les-caraibes-hero.jpg"
 title: "Quels lieux incontournables à visiter en Guadeloupe ?"
 description: "**EN BREF**                                - **Pointe-à-Pitre** : Ville cosmopolite et animée                  - **Plage de la Grande Anse** : L'une des plus be..."
 pubDate: "2024-10-22 11:22:22"

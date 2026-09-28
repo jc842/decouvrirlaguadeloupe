@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/la-culture-un-voyage-emotionnel-au-coeur-de-nos-racines-hero.jpg"
 title: "Quelles sont les activités culturelles à découvrir en Guadeloupe ?"
 description: "**EN BREF**                                - Visiter la **Cathédrale Notre Dame** de Guadeloupe                  - Explorer le **Fort Delgrès**                 ..."
 pubDate: "2024-10-22 11:09:05"

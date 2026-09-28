@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Des incursions massives de sargasses prévues en Guadeloupe"
 description: "Alors que la Guadeloupe fait face depuis plusieurs années à un phénomène naturel d'échouement massif de sargasses, la situation s'annonce particulièrement criti..."
 pubDate: "2025-07-01 03:04:13"

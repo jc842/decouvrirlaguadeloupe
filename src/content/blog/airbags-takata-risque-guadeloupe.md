@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Des airbags Takata toujours à risque : 20 000 voitures en Guadeloupe ignorent le 'stop and drive"
 description: "Le scandale des airbags Takata, qui a déjà causé des milliers de rappels automobiles à travers le monde, continue de faire des vagues en Guadeloupe où la problé..."
 pubDate: "2025-06-26 17:06:06"

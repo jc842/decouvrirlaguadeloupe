@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Lucie, Vanessa, Marie… Quand une formation en Guadeloupe devient un piège de précarité au lieu d'une bouée de sauvetage"
 description: "En Guadeloupe, alors que la formation professionnelle est souvent présentée comme une clé d'accès à l'emploi et à l'insertion sociale, la réalité pour certaines..."
 pubDate: "2025-09-14 17:03:55"

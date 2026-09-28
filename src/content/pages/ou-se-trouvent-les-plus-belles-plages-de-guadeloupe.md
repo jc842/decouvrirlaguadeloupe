@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lagon-turquoise-guadeloupe.jpg"
 title: "Où se trouvent les plus belles plages de Guadeloupe ?"
 description: "**EN BREF**                                - **Plage de la Caravelle** - Sainte-Anne                  - **Plage de Bois Jolan** - Sainte-Anne                  -..."
 pubDate: "2024-10-22 11:22:58"

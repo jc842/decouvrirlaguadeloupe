@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Basket : l'EDO triomphe au Guymargua mais essuie une disqualification, un choc en Guadeloupe !"
 description: "Le monde du basket-ball a récemment été secoué par une nouvelle inattendue : l'Étoile de l'Ouest (EDO), club champion des Antilles-Guyane, a triomphé lors du to..."
 pubDate: "2025-05-29 17:05:48"

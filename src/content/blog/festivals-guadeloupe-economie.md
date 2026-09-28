@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Chaque année, les festivals en Guadeloupe injectent près de 6 millions d'euros dans l'économie locale"
 description: "La Guadeloupe, réputée pour sa richesse culturelle et ses paysages paradisiaques, voit chaque année une dynamique économique importante générée par ses festival..."
 pubDate: "2025-06-14 17:08:53"

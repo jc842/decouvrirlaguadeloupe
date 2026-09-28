@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/decouvrez-les-meilleures-options-dhebergement-en-guadeloupe-hero.jpg"
 title: "Comment choisir son hébergement en Guadeloupe ?"
 description: "**EN BREF**                                - **Types d'hébergements** : locations de villas, chambres d'hôtes, hôtels écologiques.                  - **Zones re..."
 pubDate: "2024-10-22 11:12:42"

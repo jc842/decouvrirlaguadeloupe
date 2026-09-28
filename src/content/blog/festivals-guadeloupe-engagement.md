@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "La Guadeloupe célèbre ses festivals : un engagement fort du public local"
 description: "La Guadeloupe, joyau des Caraïbes aux richesses culturelles multiples, se distingue par un dynamisme festif exceptionnel. En 2025, la vitalité de ses festivals ..."
 pubDate: "2025-06-16 03:08:01"

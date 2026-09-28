@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/la-gastronomie-un-voyage-emotionnel-au-coeur-des-saveurs-hero.jpg"
 title: "Où déguster la cuisine antillaise en Guadeloupe ?"
 description: "**EN BREF**                                - **Restaurants Cajuns** à découvrir en Guadeloupe                  - Les **meilleures tables** antillaises          ..."
 pubDate: "2024-10-22 11:19:36"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "La saison cyclonique 2025 s'annonce très active, avec la Guadeloupe en première ligne des impacts."
 description: "Alors que la saison cyclonique 2025 ouvre ses portes, les projections météorologiques alertent sur une intensité exceptionnelle, notamment pour la Guadeloupe. E..."
 pubDate: "2025-06-19 03:08:48"

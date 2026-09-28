@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "un black-out en guadeloupe : les usagers d'EDF en première ligne pour la facture"
 description: "**EN BREF**  - **Black-out** en Guadeloupe du 25 au 26 octobre 2024  - Absence d'**électricité** pendant 39 heures  - EDF continue à **facturer** les clients du..."
 pubDate: "2025-05-24 04:09:20"

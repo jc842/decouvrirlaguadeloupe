@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Guadeloupe : des anciens grévistes en garde à vue suite à la coupure d'électricité de 2024"
 description: "Le territoire guadeloupéen a connu un épisode électrique exceptionnel en octobre 2024, lorsqu’une coupure massive a plongé l’ensemble de l’archipel dans le noir..."
 pubDate: "2025-06-29 17:07:47"

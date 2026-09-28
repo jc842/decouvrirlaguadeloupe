@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Un maillot inédit pour représenter le comité des îles de Guadeloupe"
 description: "La Guadeloupe s'apprête à franchir une nouvelle étape dans l'expression de son identité sportive à travers la création d'un maillot inédit qui symbolise fièreme..."
 pubDate: "2025-06-09 17:08:12"

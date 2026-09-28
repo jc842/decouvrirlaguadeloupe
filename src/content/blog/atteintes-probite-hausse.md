@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Les atteintes à la probité en forte hausse : presque le double d'infractions constatées l'année précédente"
 description: "Les atteintes à la probité s'imposent en 2024 comme une réalité préoccupante, avec près du double d'infractions détectées comparé à l'année précédente. Cette év..."
 pubDate: "2025-07-04 03:06:10"

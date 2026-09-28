@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Une panne massive en Guadeloupe prive l'île d'électricité ce vendredi 25 octobre 2024"
 description: "**EN BREF**  - **Panne généralisée** d'électricité en Guadeloupe depuis le 25 octobre à 8h30  - Source de l'électricité : centrale **Jarry**, fournissant près d..."
 pubDate: "2025-06-01 08:08:10"

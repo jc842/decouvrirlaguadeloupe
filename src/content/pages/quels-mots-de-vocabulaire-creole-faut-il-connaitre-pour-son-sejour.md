@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/voyage-au-coeur-des-caraibes-decouvrir-les-langues-qui-parlent-a-nos-emotions-hero.jpg"
 title: "Quels mots de vocabulaire créole faut-il connaître pour son séjour ?"
 description: "**EN BREF**                                - **Compréhension**: Je comprends/Je ne comprends pas - Mwen ka kompwend/An pa ka kompwann                  - **Pardo..."
 pubDate: "2024-10-22 07:46:26"

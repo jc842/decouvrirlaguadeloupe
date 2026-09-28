@@ -22,43 +22,14 @@ const {
 
 const canonicalURL = new URL(Astro.url.pathname, siteConfig.url);
 
-// Anti-Footprint Color Schemas
-const colorThemes: Record<string, { body: string; header: string; accent: string; badge: string; footer: string }> = {
-  stone: {
-    body: 'bg-stone-50 text-stone-800',
-    header: 'bg-white/95 border-stone-200',
-    accent: 'text-stone-900 hover:text-stone-600',
-    badge: 'bg-stone-200 text-stone-800',
-    footer: 'bg-stone-900 text-stone-300 border-stone-800',
-  },
-  slate: {
-    body: 'bg-slate-50 text-slate-800',
-    header: 'bg-white/95 border-slate-200',
-    accent: 'text-blue-700 hover:text-blue-600',
-    badge: 'bg-blue-100 text-blue-800',
-    footer: 'bg-slate-900 text-slate-300 border-slate-800',
-  },
-  zinc: {
-    body: 'bg-zinc-50 text-zinc-800',
-    header: 'bg-white/95 border-zinc-200',
-    accent: 'text-zinc-900 hover:text-zinc-600',
-    badge: 'bg-zinc-200 text-zinc-800',
-    footer: 'bg-zinc-950 text-zinc-300 border-zinc-900',
-  },
-  neutral: {
-    body: 'bg-neutral-50 text-neutral-800',
-    header: 'bg-white/95 border-neutral-200',
-    accent: 'text-emerald-700 hover:text-emerald-600',
-    badge: 'bg-emerald-100 text-emerald-800',
-    footer: 'bg-neutral-950 text-neutral-300 border-neutral-900',
-  }
-};
-
-const theme = colorThemes[siteConfig.theme?.colorScheme || 'stone'] || colorThemes.stone;
+const homeUrl = lang === 'fr' ? '/' : `/${lang}/`;
+const blogUrl = lang === 'fr' ? '/blog/' : `/${lang}/blog/`;
+const legalUrl = lang === 'fr' ? '/mentions-legales/' : `/${lang}/mentions-legales/`;
+const privacyUrl = lang === 'fr' ? '/politique-confidentialite/' : `/${lang}/politique-confidentialite/`;
 ---
 
 <!DOCTYPE html>
-<html lang={lang} class="scroll-smooth">
+<html lang={lang} class="scroll-smooth bg-[#faf9f6] text-stone-900 antialiased selection:bg-forest-800 selection:text-white">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -66,11 +37,16 @@ const theme = colorThemes[siteConfig.theme?.colorScheme || 'stone'] || colorThem
   <meta name="description" content={description} />
   <link rel="canonical" href={canonicalURL} />
 
+  <!-- Google Fonts: Plus Jakarta Sans + Instrument Serif -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
+
   <!-- Hreflang Tags for i18n SEO -->
-  <link rel="alternate" hreflang="fr" href={siteConfig.url} />
-  <link rel="alternate" hreflang="en" href={`${siteConfig.url}/en`} />
-  <link rel="alternate" hreflang="es" href={`${siteConfig.url}/es`} />
-  <link rel="alternate" hreflang="x-default" href={siteConfig.url} />
+  <link rel="alternate" hreflang="fr" href={`${siteConfig.url}/`} />
+  <link rel="alternate" hreflang="en" href={`${siteConfig.url}/en/`} />
+  <link rel="alternate" hreflang="es" href={`${siteConfig.url}/es/`} />
+  <link rel="alternate" hreflang="x-default" href={`${siteConfig.url}/`} />
 
   <!-- Open Graph -->
   <meta property="og:type" content={article ? 'article' : 'website'} />
@@ -90,31 +66,41 @@ const theme = colorThemes[siteConfig.theme?.colorScheme || 'stone'] || colorThem
   <Matomo />
 </head>
 
-<body class={`min-h-screen flex flex-col ${theme.body} pb-24 md:pb-0`}>
-  <!-- En-tête / Header -->
-  <header class={`sticky top-0 z-40 backdrop-blur-md border-b shadow-sm ${theme.header}`}>
+<body class="min-h-screen flex flex-col bg-[#faf9f6] text-stone-900 font-sans pb-24 md:pb-0">
+  <!-- En-tête / Header Éditorial Lexington -->
+  <header class="sticky top-0 z-40 bg-[#faf9f6]/95 backdrop-blur-md border-b border-stone-200/80">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-16">
-        <a href={lang === 'fr' ? '/' : `/${lang}`} class="flex items-center space-x-2 group">
-          <span class="text-xl sm:text-2xl font-black tracking-tight group-hover:opacity-80 transition-opacity">
-            {siteConfig.name}
+      <div class="flex items-center justify-between h-20">
+        <a href={homeUrl} class="flex items-center space-x-3 group">
+          <span class="w-8 h-8 rounded-full bg-forest-900 text-white flex items-center justify-center font-serif text-lg italic shadow-sm">
+            D
           </span>
+          <div class="flex flex-col">
+            <span class="font-serif italic text-2xl sm:text-3xl text-stone-900 group-hover:text-forest-800 transition-colors leading-none tracking-tight">
+              {siteConfig.name}
+            </span>
+            <span class="text-[10px] uppercase tracking-[0.2em] font-semibold text-forest-700 mt-0.5">
+              Guide Nature & Patrimoine
+            </span>
+          </div>
         </a>
 
         <!-- Navigation Desktop -->
-        <nav class="hidden md:flex items-center space-x-6 text-sm font-medium">
-          <a href="/" class="hover:opacity-80 transition-opacity">{lang === 'es' ? 'Inicio' : (lang === 'en' ? 'Home' : 'Accueil')}</a>
-          <a href="/blog" class="hover:opacity-80 transition-opacity">{lang === 'es' ? 'Blog' : (lang === 'en' ? 'Blog' : 'Le Blog')}</a>
-          <a href="/mentions-legales" class="hover:opacity-80 transition-opacity">{lang === 'es' ? 'Aviso legal' : (lang === 'en' ? 'Legal' : 'Mentions Légales')}</a>
+        <nav class="hidden md:flex items-center space-x-8 text-xs font-semibold uppercase tracking-wider text-stone-700">
+          <a href={homeUrl} class="hover:text-forest-800 transition-colors">{lang === 'es' ? 'Inicio' : (lang === 'en' ? 'Home' : 'Accueil')}</a>
+          <a href={blogUrl} class="hover:text-forest-800 transition-colors">{lang === 'es' ? 'Guías' : (lang === 'en' ? 'Guides' : 'Le Guide')}</a>
+          <a href="/blog/guide-randonnees-guadeloupe-soufriere-chutes-du-carbet/" class="hover:text-forest-800 transition-colors">Randonnées</a>
+          <a href="/ou-se-trouvent-les-plus-belles-plages-de-guadeloupe/" class="hover:text-forest-800 transition-colors">Plages</a>
+          <a href={legalUrl} class="hover:text-forest-800 transition-colors">{lang === 'es' ? 'Legal' : (lang === 'en' ? 'Legal' : 'Mentions Légales')}</a>
         </nav>
 
         <!-- Sélecteur de Langues -->
-        <div class="hidden sm:flex items-center space-x-1.5 text-xs font-semibold bg-white/60 border rounded-full px-2.5 py-1">
-          <a href="/" class={`px-1.5 py-0.5 rounded-full transition-colors ${lang === 'fr' ? 'bg-black text-white' : 'text-stone-600 hover:text-black'}`}>FR</a>
+        <div class="flex items-center space-x-1.5 text-[11px] font-semibold bg-white border border-stone-200/90 rounded-full px-2.5 py-1 shadow-2xs">
+          <a href="/" class={`px-2 py-0.5 rounded-full transition-colors ${lang === 'fr' ? 'bg-forest-900 text-white' : 'text-stone-600 hover:text-stone-900'}`}>FR</a>
           <span class="text-stone-300">|</span>
-          <a href="/en" class={`px-1.5 py-0.5 rounded-full transition-colors ${lang === 'en' ? 'bg-black text-white' : 'text-stone-600 hover:text-black'}`}>EN</a>
+          <a href="/en/" class={`px-2 py-0.5 rounded-full transition-colors ${lang === 'en' ? 'bg-forest-900 text-white' : 'text-stone-600 hover:text-stone-900'}`}>EN</a>
           <span class="text-stone-300">|</span>
-          <a href="/es" class={`px-1.5 py-0.5 rounded-full transition-colors ${lang === 'es' ? 'bg-black text-white' : 'text-stone-600 hover:text-black'}`}>ES</a>
+          <a href="/es/" class={`px-2 py-0.5 rounded-full transition-colors ${lang === 'es' ? 'bg-forest-900 text-white' : 'text-stone-600 hover:text-stone-900'}`}>ES</a>
         </div>
       </div>
     </div>
@@ -122,7 +108,7 @@ const theme = colorThemes[siteConfig.theme?.colorScheme || 'stone'] || colorThem
 
   <!-- Leaderboard Ad Slot -->
   {siteConfig.revive?.zones?.header && (
-    <div class="hidden md:flex justify-center my-3">
+    <div class="hidden md:flex justify-center my-4 max-w-7xl mx-auto px-4">
       <ReviveSlot format={siteConfig.revive.zones.header.format} zoneId={siteConfig.revive.zones.header.zoneId} />
     </div>
   )}
@@ -137,21 +123,64 @@ const theme = colorThemes[siteConfig.theme?.colorScheme || 'stone'] || colorThem
     <MobileStickyAd zoneId={siteConfig.revive.zones.mobileSticky.zoneId} />
   )}
 
-  <!-- Footer -->
-  <footer class={`mt-16 border-t ${theme.footer}`}>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-      <div class="flex flex-col sm:flex-row justify-between items-center gap-4 text-xs">
-        <p>&copy; {new Date().getFullYear()} {siteConfig.name}. Tous droits réservés.</p>
-        <div class="flex space-x-4">
-          <a href="/mentions-legales" class="hover:underline">Mentions Légales</a>
-          <a href="/politique-confidentialite" class="hover:underline">Confidentialité</a>
+  <!-- Footer Éditorial Lexington -->
+  <footer class="mt-20 border-t border-stone-200/90 bg-[#f5f4ef] text-stone-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-stone-300/60">
+        
+        <div class="md:col-span-5">
+          <span class="font-serif italic text-3xl text-stone-900 block mb-3">
+            {siteConfig.name}
+          </span>
+          <p class="text-xs sm:text-sm text-stone-600 leading-relaxed max-w-md mb-4">
+            Revue indépendante et carnet de terrain dédié à l'exploration de la Guadeloupe : sentiers de Basse-Terre, sommets volcaniques, cascades préservées, récifs marins et patrimoine antillais.
+          </p>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-stone-200 text-[11px] font-semibold text-forest-800">
+            <span class="w-2 h-2 rounded-full bg-emerald-600"></span>
+            100% Cookieless RGPD (Dispense CNIL Matomo)
+          </div>
         </div>
+
+        <div class="md:col-span-3">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-stone-900 mb-4">
+            Grands Dossiers
+          </h3>
+          <ul class="space-y-2.5 text-xs text-stone-600">
+            <li><a href="/blog/guide-randonnees-guadeloupe-soufriere-chutes-du-carbet/" class="hover:text-forest-800 transition-colors">La Soufrière & Chutes du Carbet</a></li>
+            <li><a href="/blog/activites-nautiques-kayak-paddle-mangrove-guadeloupe/" class="hover:text-forest-800 transition-colors">Kayak & Mangrove du Cul-de-Sac Marin</a></li>
+            <li><a href="/blog/plongee-snorkeling-reserve-cousteau-recifs-guadeloupe/" class="hover:text-forest-800 transition-colors">Réserve Cousteau & Îlets Pigeon</a></li>
+            <li><a href="/ou-se-trouvent-les-plus-belles-plages-de-guadeloupe/" class="hover:text-forest-800 transition-colors">Guide des Plus Belles Plages</a></li>
+            <li><a href="/blog/canyonisme-randonnee-aquatique-rivieres-basse-terre/" class="hover:text-forest-800 transition-colors">Canyoning dans les Rivières</a></li>
+          </ul>
+        </div>
+
+        <div class="md:col-span-4">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-stone-900 mb-4">
+            Éthique & Démarche
+          </h3>
+          <p class="text-xs text-stone-600 leading-relaxed mb-4">
+            Toutes nos fiches sont rédigées dans le respect des écosystèmes insulaires. Aucun traçage publicitaire intrusif n'est utilisé sur notre plateforme.
+          </p>
+          <div class="flex flex-wrap gap-4 text-xs font-semibold text-stone-800">
+            <a href={legalUrl} class="hover:text-forest-800 transition-colors">Mentions Légales</a>
+            <span>&bull;</span>
+            <a href={privacyUrl} class="hover:text-forest-800 transition-colors">Politique de Confidentialité</a>
+            <span>&bull;</span>
+            <a href="/llms.txt" class="hover:text-forest-800 transition-colors">llms.txt</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-stone-500 gap-3">
+        <p>&copy; {new Date().getFullYear()} {siteConfig.name}. Revue et carnet de terrain des îles de Guadeloupe.</p>
+        <p class="text-[11px] font-semibold tracking-wider text-stone-400 uppercase">
+          Édition Lexington Rainforest Editorial
+        </p>
       </div>
     </div>
   </footer>
 
-  <!-- Matomo Tracking -->
-  
   <!-- Masquage propre des emplacements Revive sans bannière active -->
   <script is:inline>
     (function() {

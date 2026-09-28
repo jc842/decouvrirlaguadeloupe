@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "L'affaire Kabana Beach relance la discussion : quelles sont les lois régissant l'occupation du littoral en Guadeloupe ?"
 description: "La démolition du restaurant Kabana Beach, survenue le 16 juin 2025 au petit matin à Port-Louis, a ravivé un débat brûlant en Guadeloupe autour des règles encadr..."
 pubDate: "2025-06-25 03:02:58"

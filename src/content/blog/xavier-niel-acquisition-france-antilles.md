@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Xavier Niel fait l'acquisition du quotidien France-Antilles"
 description: "L'actualité est riche en rebondissements, surtout dans le monde du **journalisme** en Outre-mer. La récente décision du tribunal de commerce de Fort-de-France d..."
 pubDate: "2025-05-27 06:10:06"

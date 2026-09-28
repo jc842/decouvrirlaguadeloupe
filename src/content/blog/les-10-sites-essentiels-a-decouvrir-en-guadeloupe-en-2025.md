@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "Les 10 sites essentiels à découvrir en Guadeloupe en 2025"
 description: "La Guadeloupe, véritable joyau des Caraïbes, offre une multitude d'expériences uniques qui séduisent chaque année des voyageurs du monde entier. En 2025, cette ..."
 pubDate: "2025-05-28 03:24:21"

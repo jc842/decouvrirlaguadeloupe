@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Guadeloupe, Maldives, Seychelles : quand les îles se transforment en dépotoirs océaniques"
 description: "Les images idylliques de la Guadeloupe, des Maldives et des Seychelles ont longtemps incarné l’idée d’un paradis insulaire où la nature domine en maître. Pourta..."
 pubDate: "2025-06-13 03:23:00"

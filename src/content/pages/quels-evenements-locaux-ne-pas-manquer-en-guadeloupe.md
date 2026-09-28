@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/les-festivals-et-celebrations-emblematiques-des-caraibes-a-ne-pas-manquer-hero.jpg"
 title: "Quels événements locaux ne pas manquer en Guadeloupe ?"
 description: "**EN BREF**                                - **Carnaval :** Explosion de couleurs et de rythmes de janvier à mars.                  - **Fèt a Kabrit :** Célébra..."
 pubDate: "2024-10-22 11:10:13"

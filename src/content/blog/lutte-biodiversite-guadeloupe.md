@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "La lutte pour la biodiversité en Guadeloupe : combattez le redoutable 'cancer vert"
 description: "La Guadeloupe, joyau de la biodiversité insulaire, est aujourd’hui confrontée à une menace majeure : le \"cancer vert\". Ce surnom alarmant désigne le miconia cal..."
 pubDate: "2025-06-17 03:09:30"

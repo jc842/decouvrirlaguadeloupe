@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Plongée au cœur de la violence en Guadeloupe : gendarmes face aux braquages, forcenés et courses-poursuites"
 description: "Située à des milliers de kilomètres de l’Hexagone, la Guadeloupe présente un contraste saisissant entre ses paysages idylliques et une réalité marquée par une m..."
 pubDate: "2025-09-15 03:06:24"

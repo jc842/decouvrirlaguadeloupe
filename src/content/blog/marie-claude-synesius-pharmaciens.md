@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "Marie-Claude Synésius : Femme de tête à la présidence du Syndicat Départemental des Pharmaciens de Guadeloupe"
 description: "Dans le paysage pharmaceutique guadeloupéen, une figure s’impose avec détermination et leadership : Marie-Claude Synésius. Depuis son accession à la présidence ..."
 pubDate: "2025-09-19 03:06:45"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Séjournez dans une villa de luxe avec piscine à Saint-François pour des vacances inoubliables en Guadeloupe"
 description: "Plongez dans l’univers du luxe tropical en choisissant une villa d’exception avec piscine à Saint-François, l’une des perles les plus prisées de Guadeloupe. Ce ..."
 pubDate: "2025-06-09 16:57:12"

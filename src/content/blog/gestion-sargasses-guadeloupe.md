@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "Gestion des sargasses en Guadeloupe : Impacts écologiques et solutions pour un environnement sain"
 description: "Chaque année, la Guadeloupe fait face à une prolifération dramatique d’algues sargasses qui viennent s’échouer massivement sur ses côtes exposées. Ce phénomène,..."
 pubDate: "2025-09-17 03:10:45"

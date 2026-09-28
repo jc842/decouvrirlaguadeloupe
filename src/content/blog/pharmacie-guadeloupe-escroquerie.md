@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Une pharmacie en Guadeloupe sous enquête pour escroquerie à la CGSS, dépassant un million d'euros"
 description: "La Guadeloupe est actuellement le théâtre d’une affaire judiciaire majeure impliquant une importante pharmacie locale du Lamentin, la pharmacie Girard-Dugamin. ..."
 pubDate: "2025-06-27 03:05:37"

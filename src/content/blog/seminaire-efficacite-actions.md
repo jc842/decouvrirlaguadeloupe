@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "France Services organise un séminaire pour optimiser l'efficacité de ses actions"
 description: "En juin 2025, un événement majeur a rassemblé les acteurs fondamentaux du dispositif France Services en Guadeloupe, marquant une étape importante dans la dynami..."
 pubDate: "2025-06-20 03:08:48"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Un mois de juillet un peu sec se profile en Guadeloupe et aux îles du Nord, malgré les ondes tropicales"
 description: "Au cœur des Caraïbes, la Guadeloupe et les îles du Nord entrent dans la saison des pluies, pourtant, un mois de juillet légèrement sec semble se dessiner pour 2..."
 pubDate: "2025-06-29 03:07:51"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "Le phénomène des médias sur les chaînes Whatsapp"
 description: "Le phénomène des chaînes WhatsApp suscite un intérêt grandissant, transformant la manière dont les médias et les personnalités interagissent avec leurs abonnés...."
 pubDate: "2025-05-29 07:03:27"

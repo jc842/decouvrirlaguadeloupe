@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "L'alliance de la presse d'information générale met en place une nouvelle commission dédiée aux enjeux de l'Outre-mer"
 description: "Dans un contexte où la presse ultramarine fait face à des défis conséquents, la mise en place d'une nouvelle commission par l'Alliance de la presse d'informatio..."
 pubDate: "2025-05-21 03:13:24"

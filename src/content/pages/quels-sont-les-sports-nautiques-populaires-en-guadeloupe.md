@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/la-magie-des-activites-nautiques-entre-frissons-et-serenite-hero.jpg"
 title: "Quels sont les sports nautiques populaires en Guadeloupe ?"
 description: "**EN BREF**                                - **Surf** : Vagues idéales pour débutants et experts.                  - **Stand-up paddle** : Activité relaxante et..."
 pubDate: "2024-10-22 11:05:41"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Une connexion maritime innovante entre Bouillante et les Saintes : un avancement vers un tourisme durable en Guadeloupe"
 description: "La Guadeloupe poursuit son dynamisme territorial en inaugurant une nouvelle liaison maritime entre Bouillante, sur la côte ouest de Basse-Terre, et les charmant..."
 pubDate: "2025-06-22 03:07:30"

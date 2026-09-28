@@ -7,156 +7,225 @@ import ReviveSlot from '../components/ads/ReviveSlot.astro';
 const allPosts = await getCollection('blog', ({ data }) => !data.draft && (!data.lang || data.lang === 'fr'));
 allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-// Lead article (randonnée, nature ou cascade)
-const leadPost = allPosts.find(p => p.id.includes('randonnee') || p.id.includes('site-naturel')) || allPosts[0];
+// Lead flagship article (Soufrière / Randonnées ou Cascades)
+const leadPost = allPosts.find(p => p.id.includes('soufriere') || p.id.includes('randonnee') || p.id.includes('cascade')) || allPosts[0];
 const remainingPosts = allPosts.filter(p => p.id !== leadPost?.id);
-const trendingPosts = remainingPosts.slice(0, 3);
-const gridPosts = remainingPosts.slice(3, 12);
 
+// Trending top stories
+const trendingPosts = remainingPosts.slice(0, 3);
+
+// Nature & Hiking Highlights
 const hikingHighlights = allPosts.filter(p => 
   p.data.category === 'Randonnées & Nature' || 
   p.data.category === 'Sites Naturels & Plages' || 
-  p.data.category === 'Activités & Nautisme'
+  p.data.category === 'Activités & Nautisme' ||
+  p.id.includes('randonnee') ||
+  p.id.includes('nautique') ||
+  p.id.includes('cascade')
 ).slice(0, 4);
+
+// Main grid of editorial stories
+const gridPosts = remainingPosts.filter(p => !trendingPosts.includes(p) && !hikingHighlights.includes(p)).slice(0, 9);
 ---
 
-<Layout title="Guide de Voyage & Découverte en Guadeloupe" description="Explorez les cascades tropicales, sentiers volcaniques de la Soufrière, lagons turquoise et réserves naturelles de Guadeloupe.">
-  <!-- Bento Hero Section (Inspiré de Lexington Themes - Palette Tropicale Émeraude) -->
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-12">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-stretch">
-      
-      <!-- Carte Phare Gauche (7 colonnes) -->
-      {leadPost && (
-        <article class="lg:col-span-7 rounded-3xl bg-white border border-stone-200/90 p-6 sm:p-8 flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow group relative overflow-hidden">
-          <div class="absolute top-0 right-0 w-64 h-64 bg-emerald-100/50 rounded-full blur-3xl pointer-events-none -mr-16 -mt-16"></div>
-          
-          <div>
-            <div class="flex items-center gap-3 mb-4">
-              <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-extrabold uppercase tracking-wider bg-emerald-600 text-white shadow-sm shadow-emerald-600/20">
-                {leadPost.data.category}
-              </span>
-              <span class="text-xs font-semibold text-stone-400">
-                {new Date(leadPost.data.pubDate).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}
-              </span>
-            </div>
-
-            <h1 class="text-2xl sm:text-4xl font-extrabold text-stone-900 tracking-tight leading-tight group-hover:text-emerald-700 transition-colors mb-4">
-              <a href={`/blog/${leadPost.id}/`} class="focus:outline-none">
-                {leadPost.data.title}
-              </a>
-            </h1>
-
-            <p class="text-sm sm:text-base text-stone-600 leading-relaxed line-clamp-3 mb-6">
-              {leadPost.data.description}
-            </p>
+<Layout
+  title="Guide de Voyage & Randonnées en Guadeloupe"
+  description="Explorez les cascades tropicales de Basse-Terre, les sentiers volcaniques de la Soufrière, les lagons coralliens et les réserves de biosphère de Guadeloupe."
+>
+  <!-- Section Hero Éditorial Monumental (Style Lexington Themes) -->
+  <section class="border-b border-stone-200/80 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
+        <div class="lg:col-span-8">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-forest-50 border border-forest-200 text-xs font-bold uppercase tracking-wider text-forest-800 mb-4">
+            <span class="w-1.5 h-1.5 rounded-full bg-forest-600"></span>
+            Revue de Terrain & Carnet d'Évasion
           </div>
-
-          <div class="pt-6 border-t border-stone-100 flex items-center justify-between">
-            <a href={`/blog/${leadPost.id}/`} class="text-xs font-bold text-emerald-700 group-hover:translate-x-1 transition-transform inline-flex items-center gap-1.5">
-              Explorer le guide &rarr;
-            </a>
-            <span class="text-xs font-medium text-stone-400">
-              Dossier Spécial Aventure
+          <h1 class="font-serif italic font-normal text-4xl sm:text-6xl lg:text-7xl text-stone-900 tracking-tight leading-[1.05]">
+            La Guadeloupe au Cœur du Vivant.
+            <span class="font-sans not-italic text-forest-900 block text-2xl sm:text-4xl lg:text-5xl font-semibold mt-3 tracking-normal">
+              Forêts tropicales, crêtes volcaniques & lagons.
             </span>
-          </div>
-        </article>
-      )}
-
-      <!-- Colonne Droite : 3 Stories Tendances (5 colonnes) -->
-      <div class="lg:col-span-5 flex flex-col gap-4 justify-between">
-        <div class="flex items-center justify-between pb-2 border-b border-stone-200">
-          <h2 class="text-xs font-extrabold uppercase tracking-widest text-stone-400">
-            Escapades Incontournables
-          </h2>
-          <span class="text-xs font-semibold text-emerald-700">03 Récits</span>
+          </h1>
+          <p class="text-base sm:text-lg text-stone-600 max-w-2xl mt-6 leading-relaxed">
+            300 kilomètres de traces balisées, des dizaines de chutes sauvages dissimulées sous la canopée de Basse-Terre, et les récifs préservés de la mer des Caraïbes. Votre référence naturaliste et d'aventure insulaire.
+          </p>
         </div>
 
-        {trendingPosts.map((post, idx) => (
-          <article class="bg-white rounded-2xl border border-stone-200/90 p-5 shadow-sm hover:border-emerald-300 hover:shadow-md transition-all flex gap-4 items-start group">
-            <span class="text-2xl font-black text-stone-200 group-hover:text-emerald-600 transition-colors leading-none pt-1">
-              0{idx + 1}
-            </span>
-            <div class="flex-grow">
-              <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded mb-1.5 inline-block">
-                {post.data.category}
-              </span>
-              <h3 class="text-sm font-bold text-stone-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug mb-1">
-                <a href={`/blog/${post.id}/`}>
-                  {post.data.title}
-                </a>
-              </h3>
-              <p class="text-xs text-stone-500 line-clamp-1">
-                {new Date(post.data.pubDate).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' })}
-              </p>
-            </div>
-          </article>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- Lexington Featured Nature Callout Banner -->
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-    <div class="rounded-3xl bg-gradient-to-br from-stone-950 via-emerald-950 to-teal-950 text-white p-8 sm:p-12 relative overflow-hidden shadow-xl border border-emerald-800/30">
-      <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-emerald-500/20 rounded-full blur-3xl pointer-events-none"></div>
-      <div class="relative z-10 max-w-2xl">
-        <span class="inline-block text-xs font-black uppercase tracking-widest text-emerald-400 mb-3">
-          Parc National & Réserves de Biosphère
-        </span>
-        <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight mb-4 leading-tight">
-          300 km de sentiers, cascades secrètes et lagons coralliens
-        </h2>
-        <p class="text-stone-300 text-sm sm:text-base leading-relaxed mb-6">
-          De l'ascension mythique de la Soufrière aux eaux cristallines du Grand Cul-de-Sac Marin, découvrez les joyaux sauvages de l'archipel guadeloupéen.
-        </p>
-        <div class="flex flex-wrap gap-3">
-          <a href="/blog/" class="px-5 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-stone-950 font-bold text-xs uppercase tracking-wider transition-colors inline-flex items-center gap-2">
-            Consulter les 200 guides &rarr;
+        <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3 justify-end">
+          <a href="/blog/guide-randonnees-guadeloupe-soufriere-chutes-du-carbet/" class="inline-flex items-center justify-center px-6 py-3.5 rounded-xl bg-forest-900 hover:bg-forest-800 text-white text-xs font-bold uppercase tracking-wider transition-colors shadow-sm">
+            Guide de la Soufrière &rarr;
+          </a>
+          <a href="/blog/" class="inline-flex items-center justify-center px-6 py-3.5 rounded-xl border border-stone-300 bg-white hover:bg-stone-50 text-stone-800 text-xs font-bold uppercase tracking-wider transition-colors">
+            Consulter les 200 Guides
           </a>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Vitrine Éditoriale Bento (Sans dégradés IA, typographie soignée) -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+      
+      <!-- Carte Phare Gauche (7 colonnes) -->
+      {leadPost && (
+        <article class="lg:col-span-7 rounded-3xl bg-white border border-stone-200/90 overflow-hidden shadow-xs hover:shadow-md transition-shadow flex flex-col justify-between group">
+          <div>
+            {leadPost.data.heroImage && (
+              <a href={`/blog/${leadPost.id}/`} class="aspect-[16/10] overflow-hidden block bg-stone-100">
+                <img
+                  src={leadPost.data.heroImage}
+                  alt={leadPost.data.title}
+                  class="w-full h-full object-cover group-hover:scale-103 transition-transform duration-500"
+                  loading="eager"
+                />
+              </a>
+            )}
+            <div class="p-6 sm:p-8">
+              <div class="flex items-center gap-3 mb-3">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-md text-[11px] font-bold uppercase tracking-wider bg-forest-100 text-forest-900">
+                  {leadPost.data.category}
+                </span>
+                <span class="text-xs font-medium text-stone-400">
+                  {new Date(leadPost.data.pubDate).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}
+                </span>
+              </div>
+
+              <h2 class="font-serif italic text-2xl sm:text-3xl lg:text-4xl text-stone-900 group-hover:text-forest-800 transition-colors leading-tight mb-4">
+                <a href={`/blog/${leadPost.id}/`}>
+                  {leadPost.data.title}
+                </a>
+              </h2>
+
+              <p class="text-sm sm:text-base text-stone-600 leading-relaxed line-clamp-3 mb-4">
+                {leadPost.data.description}
+              </p>
+            </div>
+          </div>
+
+          <div class="px-6 sm:px-8 pb-6 pt-3 border-t border-stone-100 flex items-center justify-between text-xs font-bold text-forest-800">
+            <span class="group-hover:translate-x-1 transition-transform inline-flex items-center gap-1.5">
+              Lire le dossier de terrain &rarr;
+            </span>
+            <span class="text-stone-400 font-normal">
+              Dossier Phare
+            </span>
+          </div>
+        </article>
+      )}
+
+      <!-- Colonne Droite : 3 Récits d'Escapade (5 colonnes) -->
+      <div class="lg:col-span-5 flex flex-col justify-between gap-4">
+        <div class="flex items-center justify-between pb-3 border-b border-stone-200">
+          <h2 class="text-xs font-extrabold uppercase tracking-widest text-stone-400">
+            Escapades Incontournables
+          </h2>
+          <span class="text-xs font-bold text-forest-800">03 Sélections</span>
+        </div>
+
+        {trendingPosts.map((post, idx) => (
+          <article class="bg-white rounded-2xl border border-stone-200/90 p-5 shadow-xs hover:border-forest-300 hover:shadow-md transition-all flex gap-4 items-center group">
+            {post.data.heroImage && (
+              <a href={`/blog/${post.id}/`} class="w-24 h-24 sm:w-28 sm:h-24 rounded-xl overflow-hidden shrink-0 bg-stone-100 block">
+                <img src={post.data.heroImage} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              </a>
+            )}
+            <div class="flex-grow">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-forest-800 bg-forest-50 px-2 py-0.5 rounded mb-1.5 inline-block">
+                {post.data.category}
+              </span>
+              <h3 class="text-sm font-bold text-stone-900 group-hover:text-forest-800 transition-colors line-clamp-2 leading-snug mb-1">
+                <a href={`/blog/${post.id}/`}>
+                  {post.data.title}
+                </a>
+              </h3>
+              <p class="text-xs text-stone-400">
+                {new Date(post.data.pubDate).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' })}
+              </p>
+            </div>
+          </article>
+        ))}
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Lexington Pillar Clusters Bar (4 Territoires) -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <a href="/blog/guide-randonnees-guadeloupe-soufriere-chutes-du-carbet/" class="p-5 rounded-2xl bg-white border border-stone-200/90 hover:border-forest-600 hover:shadow-sm transition-all group">
+        <span class="text-[11px] font-bold uppercase tracking-wider text-forest-700 block mb-1">01 &bull; Massif Volcanique</span>
+        <h3 class="font-serif italic text-lg text-stone-900 group-hover:text-forest-900 transition-colors">La Soufrière & Crêtes</h3>
+        <p class="text-xs text-stone-500 mt-1 line-clamp-2">Fumerolles, bains sulfureux et sentiers d'altitude.</p>
+      </a>
+
+      <a href="/blog/canyonisme-randonnee-aquatique-rivieres-basse-terre/" class="p-5 rounded-2xl bg-white border border-stone-200/90 hover:border-forest-600 hover:shadow-sm transition-all group">
+        <span class="text-[11px] font-bold uppercase tracking-wider text-forest-700 block mb-1">02 &bull; Eaux Vives</span>
+        <h3 class="font-serif italic text-lg text-stone-900 group-hover:text-forest-900 transition-colors">Cascades & Canyons</h3>
+        <p class="text-xs text-stone-500 mt-1 line-clamp-2">Bassins d'eau douce, sauts et cascades tropicales.</p>
+      </a>
+
+      <a href="/ou-se-trouvent-les-plus-belles-plages-de-guadeloupe/" class="p-5 rounded-2xl bg-white border border-stone-200/90 hover:border-forest-600 hover:shadow-sm transition-all group">
+        <span class="text-[11px] font-bold uppercase tracking-wider text-forest-700 block mb-1">03 &bull; Milieu Marin</span>
+        <h3 class="font-serif italic text-lg text-stone-900 group-hover:text-forest-900 transition-colors">Lagons & Réserve Cousteau</h3>
+        <p class="text-xs text-stone-500 mt-1 line-clamp-2">Snorkeling corallien, kayak en mangrove et îlets.</p>
+      </a>
+
+      <a href="/blog/marches-locaux-foires-fetes-patronales-guadeloupe/" class="p-5 rounded-2xl bg-white border border-stone-200/90 hover:border-forest-600 hover:shadow-sm transition-all group">
+        <span class="text-[11px] font-bold uppercase tracking-wider text-forest-700 block mb-1">04 &bull; Terroir Créole</span>
+        <h3 class="font-serif italic text-lg text-stone-900 group-hover:text-forest-900 transition-colors">Marchés & Traditions</h3>
+        <p class="text-xs text-stone-500 mt-1 line-clamp-2">Épices, saveurs antillaises et patrimoine historique.</p>
+      </a>
+    </div>
+  </section>
+
   <!-- Bannière Publicitaire Header (Revive) -->
   {siteConfig.revive?.zones?.header && (
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-6 flex justify-center">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-8 flex justify-center">
       <ReviveSlot format={siteConfig.revive.zones.header.format} zoneId={siteConfig.revive.zones.header.zoneId} />
     </div>
   )}
 
-  <!-- Highlights Nature & Randonnée -->
+  <!-- Focus Randonnées & Grands Espaces (4 Fiches avec photos) -->
   {hikingHighlights.length > 0 && (
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-      <div class="flex items-center justify-between border-b border-stone-200 pb-4 mb-6">
+      <div class="flex items-center justify-between border-b border-stone-200 pb-4 mb-8">
         <div>
-          <span class="text-[11px] font-extrabold uppercase tracking-widest text-emerald-700">Dossiers Thématiques</span>
-          <h2 class="text-xl sm:text-2xl font-extrabold text-stone-900 tracking-tight">Randonnées, Nautisme & Grands Espaces</h2>
+          <span class="text-[11px] font-bold uppercase tracking-widest text-forest-800">Dossiers d'Aventure</span>
+          <h2 class="font-serif italic text-2xl sm:text-3xl text-stone-900 mt-0.5">Randonnées, Nautisme & Forêt Tropicale</h2>
         </div>
-        <a href="/blog/" class="text-xs font-bold text-emerald-700 hover:underline">
-          Tout parcourir &rarr;
+        <a href="/blog/" class="text-xs font-bold text-forest-800 hover:underline">
+          Tous les dossiers &rarr;
         </a>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {hikingHighlights.map(post => (
-          <article class="bg-white rounded-2xl border border-stone-200/90 p-5 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group">
+          <article class="bg-white rounded-2xl border border-stone-200/90 overflow-hidden shadow-xs hover:shadow-md transition-shadow flex flex-col justify-between group">
             <div>
-              <span class="text-[10px] font-extrabold uppercase tracking-wider text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded mb-2 inline-block">
-                {post.data.category}
-              </span>
-              <h3 class="text-sm font-bold text-stone-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug mb-2">
-                <a href={`/blog/${post.id}/`}>
-                  {post.data.title}
+              {post.data.heroImage && (
+                <a href={`/blog/${post.id}/`} class="aspect-[16/10] overflow-hidden bg-stone-100 block">
+                  <img src={post.data.heroImage} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                 </a>
-              </h3>
-              <p class="text-xs text-stone-500 line-clamp-3 mb-4 leading-relaxed">
-                {post.data.description}
-              </p>
+              )}
+              <div class="p-5">
+                <span class="text-[10px] font-extrabold uppercase tracking-wider text-forest-900 bg-forest-50 px-2 py-0.5 rounded mb-2 inline-block">
+                  {post.data.category}
+                </span>
+                <h3 class="text-sm font-bold text-stone-900 group-hover:text-forest-800 transition-colors line-clamp-2 leading-snug mb-2">
+                  <a href={`/blog/${post.id}/`}>
+                    {post.data.title}
+                  </a>
+                </h3>
+                <p class="text-xs text-stone-500 line-clamp-2 leading-relaxed">
+                  {post.data.description}
+                </p>
+              </div>
             </div>
-            <div class="pt-3 border-t border-stone-100 flex items-center justify-between text-[11px] text-stone-400">
+            <div class="px-5 pb-4 pt-3 border-t border-stone-100 flex items-center justify-between text-[11px] text-stone-400">
               <span>{new Date(post.data.pubDate).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' })}</span>
-              <span class="font-bold text-emerald-700 group-hover:translate-x-0.5 transition-transform">&rarr;</span>
+              <span class="font-bold text-forest-800 group-hover:translate-x-0.5 transition-transform">Explorer &rarr;</span>
             </div>
           </article>
         ))}
@@ -164,37 +233,66 @@ const hikingHighlights = allPosts.filter(p =>
     </section>
   )}
 
-  <!-- Grille Principale des Publications -->
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+  <!-- Cadre Éditorial Signature (Couleurs Naturelles Authentiques, sans dégradé IA) -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="rounded-3xl bg-forest-950 text-stone-100 p-8 sm:p-12 relative overflow-hidden border border-forest-900">
+      <div class="relative z-10 max-w-2xl">
+        <span class="inline-block text-xs font-bold uppercase tracking-widest text-forest-300 mb-3">
+          Parc National & Réserve de Biosphère
+        </span>
+        <h2 class="font-serif italic text-3xl sm:text-5xl text-white tracking-tight mb-4 leading-tight">
+          Un sanctuaire écologique protégé au cœur des Petites Antilles.
+        </h2>
+        <p class="text-stone-300 text-sm sm:text-base leading-relaxed mb-6">
+          De l'ascension de la Soufrière jusqu'aux anses de Petite-Terre et du Grand Cul-de-Sac Marin, notre mission est de vous guider à travers une exploration responsable, durable et authentique du patrimoine naturel guadeloupéen.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <a href="/blog/" class="px-6 py-3 rounded-xl bg-white hover:bg-forest-100 text-forest-950 font-bold text-xs uppercase tracking-wider transition-colors inline-flex items-center gap-2">
+            Explorer les 200 récits de terrain &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Grille Principale des Chroniques & Guides -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
     <div class="flex items-center justify-between border-b border-stone-200 pb-4 mb-8">
       <div>
-        <span class="text-[11px] font-extrabold uppercase tracking-widest text-stone-400">Le Magazine</span>
-        <h2 class="text-xl sm:text-2xl font-extrabold text-stone-900 tracking-tight">Dernières actualités & chroniques de l'archipel</h2>
+        <span class="text-[11px] font-bold uppercase tracking-widest text-stone-400">Le Magazine</span>
+        <h2 class="font-serif italic text-2xl sm:text-3xl text-stone-900 mt-0.5">Chroniques, Actualités & Carnets de Route</h2>
       </div>
-      <a href="/blog/" class="text-xs font-bold text-stone-600 hover:text-emerald-700">
-        Page Blog &rarr;
+      <a href="/blog/" class="text-xs font-bold text-forest-800 hover:underline">
+        Tout afficher &rarr;
       </a>
     </div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {gridPosts.map(post => (
-        <article class="bg-white rounded-2xl border border-stone-200/90 p-5 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between group">
+        <article class="bg-white rounded-2xl border border-stone-200/90 overflow-hidden shadow-xs hover:shadow-md transition-shadow flex flex-col justify-between group">
           <div>
-            <span class="text-[10px] font-bold uppercase tracking-wider text-stone-500 bg-stone-100 px-2 py-0.5 rounded mb-2 inline-block">
-              {post.data.category}
-            </span>
-            <h3 class="text-base font-bold text-stone-900 group-hover:text-emerald-700 transition-colors line-clamp-2 leading-snug mb-2">
-              <a href={`/blog/${post.id}/`}>
-                {post.data.title}
+            {post.data.heroImage && (
+              <a href={`/blog/${post.id}/`} class="aspect-[16/10] overflow-hidden bg-stone-100 block">
+                <img src={post.data.heroImage} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
               </a>
-            </h3>
-            <p class="text-xs text-stone-600 line-clamp-3 mb-4 leading-relaxed">
-              {post.data.description}
-            </p>
+            )}
+            <div class="p-5">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-stone-500 bg-stone-100 px-2 py-0.5 rounded mb-2 inline-block">
+                {post.data.category}
+              </span>
+              <h3 class="text-base font-bold text-stone-900 group-hover:text-forest-800 transition-colors line-clamp-2 leading-snug mb-2">
+                <a href={`/blog/${post.id}/`}>
+                  {post.data.title}
+                </a>
+              </h3>
+              <p class="text-xs text-stone-600 line-clamp-3 mb-4 leading-relaxed">
+                {post.data.description}
+              </p>
+            </div>
           </div>
-          <div class="pt-3 border-t border-stone-100 flex items-center justify-between text-[11px] text-stone-400">
+          <div class="px-5 pb-4 pt-3 border-t border-stone-100 flex items-center justify-between text-[11px] text-stone-400">
             <span>{new Date(post.data.pubDate).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
-            <span class="font-bold text-emerald-700 group-hover:translate-x-0.5 transition-transform">Lire &rarr;</span>
+            <span class="font-bold text-forest-800 group-hover:translate-x-0.5 transition-transform">Lire le guide &rarr;</span>
           </div>
         </article>
       ))}
@@ -202,15 +300,15 @@ const hikingHighlights = allPosts.filter(p =>
 
     <!-- Bannière In-Content -->
     {siteConfig.revive?.zones?.inContent && (
-      <div class="my-10 flex justify-center">
+      <div class="my-12 flex justify-center">
         <ReviveSlot format={siteConfig.revive.zones.inContent.format} zoneId={siteConfig.revive.zones.inContent.zoneId} />
       </div>
     )}
 
     <!-- Navigation Pagination / Voir tout -->
-    <div class="text-center pt-8 pb-12">
-      <a href="/blog/" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-stone-900 text-white font-bold text-xs uppercase tracking-wider hover:bg-emerald-700 transition-colors">
-        Explorer l'ensemble des 200 articles &rarr;
+    <div class="text-center pt-8 pb-10">
+      <a href="/blog/" class="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-forest-900 hover:bg-forest-800 text-white font-bold text-xs uppercase tracking-wider transition-colors shadow-xs">
+        Explorer l'ensemble des 200 guides & chroniques &rarr;
       </a>
     </div>
   </section>

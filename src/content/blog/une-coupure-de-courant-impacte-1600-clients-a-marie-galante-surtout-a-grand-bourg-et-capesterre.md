@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Une coupure de courant impacte 1600 clients à Marie-Galante, surtout à Grand-Bourg et Capesterre"
 description: "**EN BREF**  - **Coupure de courant** à Marie-Galante depuis 7h00, 21 mars.  - Affecte **1600 clients** surtout à **Grand-Bourg** et **Capesterre**.  - Trois **..."
 pubDate: "2025-05-28 15:02:27"

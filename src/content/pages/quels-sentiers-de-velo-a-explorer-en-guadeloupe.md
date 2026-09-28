@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/sur-les-routes-de-laventure-la-magie-du-hoverboard-hero.jpg"
 title: "Quels sentiers de vélo à explorer en Guadeloupe ?"
 description: "**EN BREF**                                - **Itinéraires de vélo de route** : Explorez la diversité des chemins en Guadeloupe.                  - **Tour en vé..."
 pubDate: "2024-10-22 11:39:31"

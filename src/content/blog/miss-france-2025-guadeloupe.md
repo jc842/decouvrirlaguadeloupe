@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Angélique Angarni-Filopon, Miss France 2025, fait escale en Guadeloupe ce jeudi"
 description: "Le 17 juillet 2025, un événement majeur a illuminé la Guadeloupe : l'arrivée d’Angélique Angarni-Filopon, couronnée Miss France 2025. Cette première visite offi..."
 pubDate: "2025-07-18 03:03:17"

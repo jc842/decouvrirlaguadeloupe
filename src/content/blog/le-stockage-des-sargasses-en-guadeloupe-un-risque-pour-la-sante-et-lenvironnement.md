@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "Le stockage des sargasses en Guadeloupe : un risque pour la santé et l'environnement"
 description: "Le phénomène des sargasses est devenu un enjeu crucial pour la Guadeloupe, soumise à des échouages massifs d'algues depuis 2011. Ces algues, bien que naturelles..."
 pubDate: "2025-05-31 17:06:36"

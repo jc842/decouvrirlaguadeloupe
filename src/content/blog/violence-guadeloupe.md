@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "Une escalade inquiétante de violence en Guadeloupe"
 description: "Depuis plusieurs mois, la Guadeloupe est le théâtre d’une montée alarmante de la violence, qui s’installe progressivement comme une menace majeure pour la sécur..."
 pubDate: "2025-06-28 03:03:52"

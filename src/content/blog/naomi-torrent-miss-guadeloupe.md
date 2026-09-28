@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Rencontrez Naomi Torrent, la magnifique Miss Guadeloupe qui représentera Miss France 2026"
 description: "Ce samedi 19 juillet, la Guadeloupe a célébré l’émergence d’une nouvelle étoile : Naomi Torrent a été élue Miss Guadeloupe 2025 lors d’une cérémonie haute en co..."
 pubDate: "2025-07-22 17:13:19"

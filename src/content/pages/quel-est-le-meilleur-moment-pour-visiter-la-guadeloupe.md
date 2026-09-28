@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/quel-est-le-moment-ideal-pour-explorer-les-merveilles-des-caraibes-hero.jpg"
 title: "Quel est le meilleur moment pour visiter la Guadeloupe ?"
 description: "**EN BREF**                  - **Meilleure période** : Décembre à avril pour un climat agréable.          - **Saison sèche** : Températures entre 22 et 30 degré..."
 pubDate: "2024-10-22 11:11:54"

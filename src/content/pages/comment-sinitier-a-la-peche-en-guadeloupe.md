@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/la-douceur-envoutante-des-mers-turquoise-un-refuge-pour-lame-hero.jpg"
 title: "Comment s'initier à la pêche en Guadeloupe ?"
 description: "**EN BREF**                                - **Débutants** : Initiez-vous à la **pêche** en **Guadeloupe** avec des guides expérimentés.                  - Opte..."
 pubDate: "2024-10-22 11:34:08"

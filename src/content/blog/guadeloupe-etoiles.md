@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "La Guadeloupe se rapproche des étoiles"
 description: "Dans un cadre paradisiaque baigné par le Soleil et Étoiles, la Guadeloupe s'affirme depuis quelques années comme une destination privilégiée pour les passionnés..."
 pubDate: "2025-06-08 17:04:48"

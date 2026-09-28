@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Les AVC en Guadeloupe : une mortalité alarmante par rapport à l'Hexagone"
 description: "La Guadeloupe fait face à une réalité sanitaire préoccupante en matière d'accidents vasculaires cérébraux (AVC). Si l’on regarde de près les données publiées en..."
 pubDate: "2025-07-03 17:06:08"

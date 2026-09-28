@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "Victorin Lurel, sénateur, tire la sonnette d'alarme sur la crise institutionnelle en Guadeloupe"
 description: "La Guadeloupe traverse une période marquée par une tension politique profonde accentuée par une impasse institutionnelle qui fragilise la gouvernance du territo..."
 pubDate: "2025-07-22 03:09:54"

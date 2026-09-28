@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "La Guadeloupe face à l'ultraviolence et au narcotrafic : quand la jalousie et le respect mènent à des comportements extrêmes"
 description: "La Guadeloupe est aujourd’hui confrontée à une réalité alarmante marquée par une explosion de violences armées et de narcotrafic, qui affecte profondément la co..."
 pubDate: "2025-07-02 17:09:01"

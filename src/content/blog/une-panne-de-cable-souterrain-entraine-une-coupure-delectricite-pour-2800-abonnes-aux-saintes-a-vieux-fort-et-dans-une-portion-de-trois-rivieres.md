@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Une panne de câble souterrain entraîne une coupure d'électricité pour 2800 abonnés aux Saintes, à Vieux-Fort et dans une portion de Trois-Rivières"
 description: "**EN BREF**  - **Panne électrique** affectant **2 800 abonnés**.  - Communes impactées : **Vieux-Fort**, **Terre-de-Haut**, **Terre-de-Bas** et une partie de **..."
 pubDate: "2025-05-26 03:11:17"

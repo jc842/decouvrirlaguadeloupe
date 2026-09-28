@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lharmonie-entre-ecologie-et-economie-aux-antilles-un-equilibre-durable-a-preserver-hero.jpg"
 title: "Retour des légumes et fruits anciens en Guadeloupe : un reportage sur la consommation locale"
 description: "La crise environnementale et l'urgence de consommer des produits locaux résonnent particulièrement en Guadeloupe, où les légumes et fruits anciens font leur gra..."
 pubDate: "2025-05-27 03:22:30"

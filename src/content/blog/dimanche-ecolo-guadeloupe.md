@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Un dimanche écolo : Guadeloupe célèbre son retour à la nature"
 description: "Ce dimanche en Guadeloupe marque un tournant solaire et paisible après une période de pluies orageuses, un véritable retour aux sources pour cette île riche en ..."
 pubDate: "2025-09-15 17:06:27"

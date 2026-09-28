@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/cascade-basse-terre-guadeloupe.jpg"
 title: "Comment profiter des activités en pleine nature en Guadeloupe ?"
 description: "**EN BREF**                  - **Excursions en mangrove** et découverte des écosystèmes.          - Activités de **snorkeling** avec une vue imprenable.        ..."
 pubDate: "2024-10-22 11:31:55"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Un ancien procureur de Pointe-à-Pitre placé en garde à vue pour des accusations de viol et de violences au sein de la famille"
 description: "Un événement judiciaire secoue actuellement le milieu juridique guadeloupéen : un ancien procureur de Pointe-à-Pitre, une figure respectée du droit, a été placé..."
 pubDate: "2025-07-01 17:03:01"

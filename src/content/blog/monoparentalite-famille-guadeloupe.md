@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "La monoparentalité : un modèle familial en pleine expansion en Guadeloupe"
 description: "La Guadeloupe observe une transformation profonde de sa structure familiale avec un phénomène en pleine expansion : la monoparentalité. Aujourd'hui, plus d'une ..."
 pubDate: "2025-06-27 17:07:42"

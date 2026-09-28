@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Axel Taillandier triomphe lors de la première étape du tour cycliste à Sainte-Anne en Guadeloupe"
 description: "La première étape du tour cycliste tenue entre Rivière-Salée et Sainte-Anne a offert un spectacle sportif d’exception, marqué par la victoire éclatante d’**Axel..."
 pubDate: "2025-07-06 17:08:23"

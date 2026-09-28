@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Des coupures d'électricité programmées ce vendredi après-midi"
 description: "**EN BREF**  - **Coupures d'électricité** programmées ce vendredi après-midi.  - Problème technique sur un **moteur** identifié par **EDF Guadeloupe**.  - Un to..."
 pubDate: "2025-05-23 10:06:01"

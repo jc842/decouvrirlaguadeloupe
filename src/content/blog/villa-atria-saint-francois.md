@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Découvrez la Villa Atria à Saint-François : location de villa de prestige pour des vacances inoubliables"
 description: "Au cœur de la station balnéaire animée de Saint-François en Guadeloupe, la Villa Atria s’impose comme une adresse incontournable pour ceux qui recherchent une e..."
 pubDate: "2025-07-02 23:33:12"

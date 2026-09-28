@@ -202,7 +202,7 @@ Campagnes de sensibilisation contre les sargasses
 Collectivités, associations locales, sportifs
 Préservation du cadre de vie pour l’épanouissement
 
-https://www.tiktok.com/@/video/7479780977162636550?u_code=0&#038;sharer_language=en
+https://www.tiktok.com/@/video/7479780977162636550?u_code=0&sharer_language=en
 
 ## FAQ – La Guadeloupe, championne des titres et des records
 

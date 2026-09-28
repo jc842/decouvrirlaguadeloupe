@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "La problématique des armes à feu en Guadeloupe : une crise à ne pas négliger"
 description: "En 2025, la Guadeloupe se trouve confrontée à une recrudescence alarmante des actes de violence armée, impactant profondément la sécurité publique et la qualité..."
 pubDate: "2025-06-22 17:03:16"

@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "La finale palpitante du championnat de calcul mental sera diffusée en direct sur Guadeloupe La 1ère"
 description: "La Guadeloupe s’apprête à vivre un moment fort de son calendrier éducatif avec la diffusion en direct de la finale du Championnat académique de calcul mental su..."
 pubDate: "2025-06-11 03:03:06"

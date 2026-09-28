@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/explorez-la-guadeloupe-votre-guide-specialise-pour-toutes-les-activites-insulaires-hero.jpg"
 title: "Quelles sont les meilleures activités à faire en Guadeloupe ?"
 description: "**EN BREF**                                - **Gravir la Soufrière** - Une aventure volcanique inoubliable                  - **Plonger à Malendure** - Explorer..."
 pubDate: "2024-10-22 11:04:23"

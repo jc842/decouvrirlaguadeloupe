@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/lame-des-caraibes-voyage-au-coeur-de-lhistoire-sportive-hero.jpg"
 title: "Le concours de Miss Guadeloupe s'intensifie avec des préparations acharnées !"
 description: "La 88e édition du concours Miss Guadeloupe approche à grands pas, concentrant toute l'attention sur les dix candidates sélectionnées, venues de tous les coins d..."
 pubDate: "2025-06-30 17:05:06"

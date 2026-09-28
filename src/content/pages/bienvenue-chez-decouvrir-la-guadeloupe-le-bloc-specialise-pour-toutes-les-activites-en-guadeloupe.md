@@ -1,5 +1,6 @@
 ---
-title: "Bienvenue chez Découvrir la Guadeloupe le bloc spécialisé pour toutes les activités en Guadeloupe"
+heroImage: "/images/explorez-la-guadeloupe-votre-guide-specialise-pour-toutes-les-activites-insulaires-hero.jpg"
+title: "Bienvenue chez Découvrir la Guadeloupe le blog spécialisé pour toutes les activités en Guadeloupe"
 description: "**EN BREF**                                - **Îles de Guadeloupe** : Un véritable trésor des Antilles.                  - **Activités variées** : Plongée, rand..."
 pubDate: "2024-10-22 11:03:48"
 lang: "fr"
@@ -32,7 +33,7 @@ draft: false
 
 Bienvenue dans cet espace dédié à **Découvrir la Guadeloupe**, votre guide privilégié pour explorer les **innombrables activités** que cette île enchanteresse a à offrir. De la plongée dans ses eaux cristallines aux randonnées à travers sa luxuriante forêt tropicale, chaque moment passé ici est une promesse d'évasion et de découvertes. Préparez-vous à plonger au cœur de cette destination unique, riche en couleurs, saveurs et émotions, où chaque expérience vous rapprochera un peu plus de l'âme vibrante de la Guadeloupe.
 
-## Bienvenue chez Découvrir la Guadeloupe : le bloc spécialisé pour toutes les activités en Guadeloupe
+## Bienvenue chez Découvrir la Guadeloupe : le blog spécialisé pour toutes les activités en Guadeloupe
 
 Dans ce havre de paix qu'est la Guadeloupe, chaque coin de l'île invite à l'émerveillement. Entre plages de rêve, aventure au cœur des forêts luxuriantes et activités aquatiques sensationnelles, il existe tant de manières de découvrir ce joyau des Antilles. "Découvrir la Guadeloupe" se veut être le guide privilégié pour chaque voyageur désireux de vivre des moments inoubliables. Ce bloc vous propose une multitude d'idées afin d'explorer cette magnifique île dans toute sa splendeur.
 

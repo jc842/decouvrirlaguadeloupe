@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Le nouveau règlement de pêche en débat devant le tribunal administratif : les marins-pêcheurs s'opposent"
 description: "La Guadeloupe est en pleine effervescence autour du nouveau règlement de pêche professionnelle qui soulève de vives oppositions parmi les marins-pêcheurs. Entré..."
 pubDate: "2025-07-23 17:03:28"

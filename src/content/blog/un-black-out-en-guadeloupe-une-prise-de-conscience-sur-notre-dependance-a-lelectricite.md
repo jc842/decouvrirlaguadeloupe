@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Un black out en Guadeloupe : une prise de conscience sur notre dépendance à l'électricité"
 description: "**EN BREF**  - **Black out** en Guadeloupe du 25 au 27 octobre 2024.  - Privation de courant pour plus de **39 heures** pour certaines personnes.  - Émotionnel ..."
 pubDate: "2025-05-25 03:06:10"

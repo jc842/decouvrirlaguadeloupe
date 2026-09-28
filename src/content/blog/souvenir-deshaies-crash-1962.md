@@ -1,4 +1,5 @@
 ---
+heroImage: "/images/renaitre-des-cendres-le-coeur-des-caraibes-face-aux-catastrophes-naturelles-hero.jpg"
 title: "Souvenir vivant à Deshaies : un relais intergénérationnel pour se remémorer le crash aérien du 22 juin 1962"
 description: "Depuis plus de six décennies, le crash aérien du 22 juin 1962 reste ancré dans la mémoire collective de Deshaies, en Guadeloupe. Bien plus qu’un simple souvenir..."
 pubDate: "2025-06-23 17:02:49"
